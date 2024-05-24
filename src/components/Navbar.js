@@ -40,8 +40,6 @@
 
 // export default Navbar;
 
-
-
 // function Header() {
 //   return (
 //     <header className="flex gap-5 justify-between self-center w-full max-w-[1120px] max-md:flex-wrap max-md:max-w-full">
@@ -82,14 +80,13 @@
 //   );
 // }
 
-
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import BurgerMenu from './BurgerMenu';
-import '../scss/Navbar.scss';
-import expertefyText from '../assets/svg/expertefy_text.svg';
-import expertefyLogo from '../assets/svg/logo.svg';
-import LinkdinLogo from '../assets/svg/linkdin.svg';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import BurgerMenu from "./BurgerMenu";
+import "../scss/Navbar.scss";
+import expertefyText from "../assets/svg/expertefy_text.svg";
+import expertefyLogo from "../assets/svg/logo.svg";
+import LinkdinLogo from "../assets/svg/linkdin.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -99,7 +96,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex gap-5 justify-between self-center w-full max-w-[1120px] max-md:flex-wrap max-md:max-w-full">
+    <header className="flex gap-5 justify-center self-center max-md:flex-wrap max-md:max-w-full">
       <div className="flex gap-2 px-5 text-xl font-semibold text-indigo-500 whitespace-nowrap">
         <img
           alt="Expertefy Logo"
@@ -110,7 +107,9 @@ const Navbar = () => {
           <img src={expertefyText} alt="Expertefy" />
         </span>
       </div>
-      <nav className={`flex gap-5 items-center px-5 my-auto text-lg text-indigo-900 max-md:flex-wrap ${isOpen ? 'nav-active' : ''}`}>
+      <nav
+        className={`flex gap-5 items-center px-5 my-auto text-lg text-indigo-900 max-md:flex-wrap ${isOpen ? "nav-active" : ""}`}
+      >
         <Link to="/" className="grow self-stretch my-auto">
           Home
         </Link>
@@ -132,7 +131,12 @@ const Navbar = () => {
         <Link to="/contact-us" className="self-stretch my-auto">
           Contact Us
         </Link>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="self-stretch my-auto">
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="self-stretch my-auto"
+        >
           <img src={LinkdinLogo} alt="LinkedIn" />
         </a>
         <BurgerMenu toggleMenu={toggleMenu} />
@@ -142,4 +146,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.total-available-width {
+  width: -webkit-fill-available;
+}
+
+.read-more-button {
+  background-color: #4B52A6;
+}
