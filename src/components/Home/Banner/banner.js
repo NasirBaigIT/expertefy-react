@@ -3,7 +3,7 @@ import SuccessStoriesSvg from "../../../assets/svg/SuccessStories.svg"; // Assum
 
 const Banner = () => {
   return (
-    <section className="flex flex-col justify-center self-stretch mt-20 w-full max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-col justify-center self-stretch w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-14 w-full min-h-[512px] max-md:px-5 max-md:max-w-full">
         <img
           alt="Background Image"

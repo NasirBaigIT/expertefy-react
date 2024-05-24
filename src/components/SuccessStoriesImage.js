@@ -1,10 +1,9 @@
-import React from 'react';
-import SuccessStoriesSvg from '../assets/svg/SuccessStories.svg'; // Assuming your image path
+import React from "react";
+import SuccessStoriesSvg from "../assets/svg/SuccessStories.svg"; // Assuming your image path
+import Banner from "./Home/Banner/banner";
 
 const SuccessStoriesImage = () => {
-  return (
-    <img src={SuccessStoriesSvg} alt="Success Stories" />
-  );
+  return <Banner />;
 };
 
 export default SuccessStoriesImage;

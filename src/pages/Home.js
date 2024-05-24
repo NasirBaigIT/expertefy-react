@@ -59,7 +59,9 @@ function Home() {
         <ClientsTestimonials />
         <IndustryCapabilities />
         <ExpertTestimonials />
-        <Banner />
+        <div className="mt-20">
+          <Banner />
+        </div>
         <Advantage />
       </main>
     </div>
