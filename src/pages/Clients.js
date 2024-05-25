@@ -21,6 +21,11 @@ const Clients = () => {
       <HowDoesItWork />
       <ScreeningProcess />
       <ClientsTestimonials />
+      <div className="flex flex-col items-center px-5">
+        <div className="justify-center items-center px-16 py-3 mt-12 bg-indigo-500 max-w-full text-3xl text-center text-white rounded-lg shadow-xl w-[398px] max-md:px-5 max-md:mt-10 max-md:text-4xl">
+          Get Started!
+        </div>
+      </div>
     </>
   );
 };
