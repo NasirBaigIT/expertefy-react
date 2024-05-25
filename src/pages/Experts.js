@@ -6,6 +6,7 @@ import ExpertTestimonials from "../components/Home/Experts/expertTestimonails";
 import expertBanner1 from "../assets/experts/experts-banner-1.png";
 import expertBanner2 from "../assets/experts/experts-banner-2.png";
 import ExpertEngagementProcess from "../components/Experts/ExpertEngagementProcess";
+import ExpertJourney from "../components/Experts/ExpertJourney";
 
 const Experts = () => {
   const title = "Leverage Your Expertise";
@@ -30,6 +31,7 @@ const Experts = () => {
       <Header title={title} description={description} />
       <ExpertBanner banner={banner1} />
       <ExpertBanner banner={banner2} />
+      <ExpertJourney />
       <ExpertEngagementProcess />
       <ExpertTestimonials />
     </>
