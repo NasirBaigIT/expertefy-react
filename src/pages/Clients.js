@@ -2,7 +2,7 @@ import React from "react";
 import WhoWeWorkWithBlocks from "../components/Clients/WhoWeWorkWithBlocks";
 import HowDoesItWork from "../components/Clients/HowDoesItWork";
 import ScreeningProcess from "../components/Clients/ScreeningProcess";
-import Testimonials from "../components/Clients/Testimonials";
+import ClientsTestimonials from "../components/Home/Clients/clientsTestimonials";
 
 const Clients = () => {
   return (
@@ -20,9 +20,12 @@ const Clients = () => {
       <WhoWeWorkWithBlocks />
       <HowDoesItWork />
       <ScreeningProcess />
-      <section className="flex justify-center items-center py-8 w-full px-20 max-md:px-5 max-md:mt-5 max-md:max-w-full">
-        <Testimonials />
-      </section>
+      <ClientsTestimonials />
+      <div className="flex flex-col items-center px-5">
+        <div className="justify-center items-center px-16 py-3 mt-12 bg-indigo-500 max-w-full text-3xl text-center text-white rounded-lg shadow-xl w-[398px] max-md:px-5 max-md:mt-10 max-md:text-4xl">
+          Get Started!
+        </div>
+      </div>
     </>
   );
 };
