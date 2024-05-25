@@ -2,7 +2,7 @@ import React from "react";
 import WhoWeWorkWithBlocks from "../components/Clients/WhoWeWorkWithBlocks";
 import HowDoesItWork from "../components/Clients/HowDoesItWork";
 import ScreeningProcess from "../components/Clients/ScreeningProcess";
-import Testimonials from "../components/Clients/Testimonials";
+import ClientsTestimonials from "../components/Home/Clients/clientsTestimonials";
 
 const Clients = () => {
   return (
@@ -20,9 +20,7 @@ const Clients = () => {
       <WhoWeWorkWithBlocks />
       <HowDoesItWork />
       <ScreeningProcess />
-      <section className="flex justify-center items-center py-8 w-full px-20 max-md:px-5 max-md:mt-5 max-md:max-w-full">
-        <Testimonials />
-      </section>
+      <ClientsTestimonials />
     </>
   );
 };
