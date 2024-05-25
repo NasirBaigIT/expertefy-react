@@ -1,80 +1,81 @@
 import * as React from "react";
 import "../../../index.css";
 
+import icon1 from "../../../assets/industry/1.png";
+import icon2 from "../../../assets/industry/2.png";
+import icon3 from "../../../assets/industry/3.png";
+import icon4 from "../../../assets/industry/4.png";
+import icon5 from "../../../assets/industry/5.png";
+import icon6 from "../../../assets/industry/6.png";
+import icon7 from "../../../assets/industry/7.png";
+import icon8 from "../../../assets/industry/8.png";
+import icon9 from "../../../assets/industry/9.png";
+import icon10 from "../../../assets/industry/10.png";
+import icon11 from "../../../assets/industry/11.png";
+import icon12 from "../../../assets/industry/12.png";
+import icon13 from "../../../assets/industry/13.png";
+import icon14 from "../../../assets/industry/14.png";
+import icon15 from "../../../assets/industry/15.png";
+
 const serviceCards = [
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/7932c311e28fc88bfa2605f081b6906c1d64961e4e03765719c9e00f59012e07?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon1,
     title: "Finance & Investments",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/b57c69818cb076c03b6972d2a4bc2d5ba5251f9d6975dbd65bcd8f9e6db334a1?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon2,
     title: "Life Sciences",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d87ebc2e7ee0233b170fb6384a520d923db5fcbfedf611679da0f80e7f2a103c?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon3,
     title: "Pharmaceuticals",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/7a8581c38e0afd403ca34d3fc9e10aad01e3a9877fec7c284ae5f26071ca5126?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon4,
     title: "Technology & Digital Transformation",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/f01643c924307064cdb6ebdfd847e67f6a24727c391f4bd4099d88fee40fff29?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon5,
     title: "Construction & Interior Design",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/1eb8bd74d72e7754af80f8af782be67d9d8956705b7f1a3ed80c63d6450410ab?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon6,
     title: "Telecom",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/1c5a04fd625731ba3ee3ecb39c2ea77fe4eac7e14eb83209b4d7d9dbc6a7aedb?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon7,
     title: "Printing & Publishing",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/0b189b3feabf0eff0556d6622a1ce5dbdb43aae1fba2ce0fa6a1334657a78de4?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon8,
     title: "Mining & Metals",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/c6d0d3b5087452aea8401215a61b1c027e0ca0f625a4a1b6d593be455812f3a6?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon9,
     title: "Industrial & Environmental Technology",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a43698c6d472c4080999b2a0b78a420b01b482fec94bf1fb3d5607352688fac1?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon10,
     title: "Manufacturing",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/e227fea54b0b12d8255e6889c0d1263b67a8c02208d532a261944f3bf674a428?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon11,
     title: "Automotive",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/889f33df1eb4471a2a6a9d296c08e8ba9a8b500fc2025e0016c48e154be8f7f4?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon12,
     title: "Consumer Goods",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/81f5fcbe680d3a94ec6bb8045642ff75af3150505aa414b1034e640ed35a8cbf?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon13,
     title: "Chemicals",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/3a1c4617bf9a00b2f6f46c4e2b4567c5cd358359e3cda73678b66c6d16076f8c?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon14,
     title: "Energy & Utilities Management",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/b915942e04d0cacf59a689a00bf2d28fc5065bf74bc12c8f744670a72b9ecb9e?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    imgSrc: icon15,
     title: "Advertising & Market Research",
   },
 ];

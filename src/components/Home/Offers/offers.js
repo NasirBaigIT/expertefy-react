@@ -4,6 +4,10 @@ import image2 from "../../../assets/offers/2.png";
 import image3 from "../../../assets/offers/3.png";
 import image4 from "../../../assets/offers/4.png";
 
+import banner1 from "../../../assets/offers/banner1.png";
+import banner2 from "../../../assets/offers/banner2.png";
+import banner3 from "../../../assets/offers/banner3.png";
+
 const Offers = () => {
   return (
     <section className="flex justify-center items-center px-16 py-16 mt-52 w-full bg-indigo-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -65,7 +69,7 @@ const Offers = () => {
                   </p>
                   <img
                     alt=""
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a1841942f0768bcb9ef5a2d21ee239bf6b77366e2abbcd8d58a2595d8da6181b?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
+                    src={banner1}
                     className="mt-9 w-full aspect-[2.04]"
                   />
                 </div>
@@ -87,7 +91,7 @@ const Offers = () => {
                   </p>
                   <img
                     alt=""
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/19987e9e93ca0ed001d8c6206fdb2e7d142b2c517c833468e0359dc89478f666?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
+                    src={banner2}
                     className="mt-4 w-full aspect-[2.04]"
                   />
                 </div>
@@ -111,7 +115,7 @@ const Offers = () => {
                   </p>
                   <img
                     alt=""
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/277feb47ba01fe9f7f34be4d53a5ebb3a5d30a1fa0a076f7e7d7db9d0bd405c4?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
+                    src={banner3}
                     className="mt-4 w-full aspect-[2.04]"
                   />
                 </div>

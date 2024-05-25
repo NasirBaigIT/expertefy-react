@@ -26,20 +26,9 @@ const Banner = () => {
                     Read More
                   </button>
                 </div>
-                <img
-                  alt=""
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/11f3ec86e683c4a38112ead59bf5f4e853c6b458731e1c42b6e88a791b9364ee?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
-                  className="shrink-0 self-start aspect-[4.17] fill-gray-200 w-[76px]"
-                />
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <img
-                alt=""
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/04f7ec9cf316556b0b11a3c14c0ffd99ad05b56b0734d94884aec50a7bf740fd?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
-                className="grow w-full aspect-[0.82] max-md:mt-8"
-              />
-            </div>
+            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"></div>
           </div>
         </div>
       </div>

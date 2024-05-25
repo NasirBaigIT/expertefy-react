@@ -1,4 +1,7 @@
 import * as React from "react";
+
+import logo from "../../../assets/form/Logo.png";
+
 const Form = () => {
   return (
     <>
@@ -58,7 +61,7 @@ const Form = () => {
               <div className="flex gap-2.5 px-4 py-2 text-xl font-semibold text-white whitespace-nowrap bg-indigo-500 rounded-t-xl shadow-sm max-md:flex-wrap">
                 <img
                   alt="Expertefy Logo"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a25724f4a2a05714210bc241e851c799ec1daff6b6b5ed0b2c53da7430978dfd?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
+                  src={logo}
                   className="shrink-0 aspect-[1.03] w-[33px]"
                 />
                 <span className="flex-auto my-auto">EXPERTEFY</span>
@@ -101,27 +104,6 @@ const Form = () => {
                   placeholder="Contact Number"
                   aria-label="Contact Number"
                 />
-                <div className="flex gap-5 self-start mt-3.5 ml-3 max-md:ml-2.5">
-                  <button
-                    type="button"
-                    className="flex gap-2.5"
-                    aria-label="Country Code Selector"
-                  >
-                    <img
-                      alt="Country Flag"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b8cb1a84416cfe957cb1f14157d067e44835bce1b75905baf230fa476808f3b3?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
-                      className="shrink-0 aspect-square w-[30px]"
-                    />
-                    <img
-                      alt="Dropdown Icon"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb2f88a278a77e358ed8a427d4b155820f07acefd3abc5ce6458acdd37920ca2?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
-                      className="shrink-0 my-auto w-2.5 aspect-[1.67] fill-zinc-400"
-                    />
-                  </button>
-                  <span className="my-auto text-lg text-center leading-[48.06px] text-zinc-400">
-                    +1
-                  </span>
-                </div>
                 <div className="shrink-0 h-0.5 bg-zinc-400"></div>
 
                 <label htmlFor="projectScope" className="sr-only">
