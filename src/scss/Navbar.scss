@@ -44,21 +44,21 @@
 
 @media (max-width: 768px) {
   .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      background: white;
-      border-top: 1px solid #e0e0e0;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: white;
+    border-top: 1px solid #e0e0e0;
   }
 
   .nav-links.nav-active {
-      display: flex;
+    display: flex;
   }
 
   .burger-menu {
-      display: block;
+    display: block;
   }
 }
