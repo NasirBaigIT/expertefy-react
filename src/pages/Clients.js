@@ -3,20 +3,15 @@ import WhoWeWorkWithBlocks from "../components/Clients/WhoWeWorkWithBlocks";
 import HowDoesItWork from "../components/Clients/HowDoesItWork";
 import ScreeningProcess from "../components/Clients/ScreeningProcess";
 import ClientsTestimonials from "../components/Home/Clients/clientsTestimonials";
+import Header from "../components/Clients/Header";
 
 const Clients = () => {
+  const title = "Unlock extensive access to specialized market insights.";
+  const description =
+    "Our clients leverage our exclusive network of subject matter experts and our custom recruitment capabilities to access hard-to-reach market insights and achieve exceptional outcomes.";
   return (
     <>
-      <div className="flex flex-col items-center self-stretch px-5 pb-5 w-full bg-indigo-900 max-md:max-w-full">
-        <div className="mt-9 text-4xl font-medium leading-10 text-center text-white capitalize w-[765px] max-md:max-w-full">
-          Unlock extensive access to specialized market insights.
-        </div>
-        <div className="mt-5 text-md text-center text-gray-300 w-[936px] max-md:max-w-full">
-          Our clients leverage our exclusive network of subject matter experts
-          and our custom recruitment capabilities to access hard-to-reach market
-          insights and achieve exceptional outcomes.
-        </div>
-      </div>
+      <Header title={title} description={description} />
       <WhoWeWorkWithBlocks />
       <HowDoesItWork />
       <ScreeningProcess />
