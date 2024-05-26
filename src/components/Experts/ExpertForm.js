@@ -8,8 +8,9 @@ function ExpertForm() {
   const [websiteUrl, setWebsiteUrl] = React.useState("");
   const [honorarium, setHonorarium] = React.useState("");
   const [experienceDetails, setExperienceDetails] = React.useState("");
-  const handleSubmit = () => {
-    console.log({
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const expert = {
       email,
       phone,
       firstName,
@@ -17,11 +18,15 @@ function ExpertForm() {
       websiteUrl,
       honorarium,
       experienceDetails,
-    });
+    };
+    console.log(expert);
   };
   return (
     <section className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full">
-      <div className="flex flex-col self-stretch px-5 w-auto">
+      <form
+        className="flex flex-col self-stretch px-5 w-auto"
+        onSubmit={(e) => handleSubmit(e)}
+      >
         <div className="self-center text-5xl font-medium text-center text-indigo-500">
           Expert Registration
         </div>
@@ -135,13 +140,10 @@ function ExpertForm() {
           value={experienceDetails}
           onChange={(e) => setExperienceDetails(e.target.value)}
         />
-        <button
-          onClick={handleSubmit}
-          className="justify-center items-center self-center px-4 py-3 my-8 max-w-full text-2xl font-medium text-center bg-indigo-800 text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5"
-        >
+        <button className="justify-center items-center self-center px-4 py-3 my-8 max-w-full text-2xl font-medium text-center bg-indigo-800 text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5">
           Submit
         </button>
-      </div>
+      </form>
     </section>
   );
 }

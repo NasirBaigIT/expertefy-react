@@ -3,6 +3,15 @@ import * as React from "react";
 import logo from "../../../assets/form/Logo.png";
 
 const Form = () => {
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [phone, setPhone] = React.useState("");
+  const [projectScope, setProjectScope] = React.useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const homeForm = { name, email, phone, projectScope };
+    console.log(homeForm);
+  };
   return (
     <>
       <section className="flex justify-center items-center py-16 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -57,7 +66,10 @@ const Form = () => {
               </div>
             </aside>
 
-            <form className="flex flex-col w-1/2 self-end pb-8 ml-40 max-w-full bg-white rounded-t-xl shadow-xl max-md:w-full max-md:mt-10 max-md:ml-2.5">
+            <form
+              className="flex flex-col w-1/2 self-end pb-8 ml-40 max-w-full bg-white rounded-t-xl shadow-xl max-md:w-full max-md:mt-10 max-md:ml-2.5"
+              onSubmit={(e) => handleSubmit(e)}
+            >
               <div className="flex gap-2.5 px-4 py-2 text-xl font-semibold text-white whitespace-nowrap bg-indigo-500 rounded-t-xl shadow-sm max-md:flex-wrap">
                 <img
                   alt="Expertefy Logo"
@@ -79,6 +91,9 @@ const Form = () => {
                   className="self-start mt-7 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
                   placeholder="Your Name"
                   aria-label="Your Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
                 />
                 <div className="shrink-0 mt-2 h-0.5 bg-zinc-400"></div>
 
@@ -91,6 +106,9 @@ const Form = () => {
                   className="self-start mt-9 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
                   placeholder="Your Email"
                   aria-label="Your Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
                 <div className="shrink-0 mt-2 h-0.5 bg-zinc-400"></div>
 
@@ -103,6 +121,9 @@ const Form = () => {
                   className="self-start mt-6 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
                   placeholder="Contact Number"
                   aria-label="Contact Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
                 />
                 <div className="shrink-0 h-0.5 bg-zinc-400"></div>
 
@@ -114,13 +135,13 @@ const Form = () => {
                   className="mt-8 ml-4 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
                   placeholder="Let us know the project scope"
                   aria-label="Project Scope"
+                  value={projectScope}
+                  onChange={(e) => setProjectScope(e.target.value)}
+                  required
                 ></textarea>
                 <div className="shrink-0 mt-16 h-0.5 bg-zinc-400 max-md:mt-10"></div>
 
-                <button
-                  type="submit"
-                  className="justify-center bg-indigo-900 items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg shadow-xl w-[323px] max-md:px-5"
-                >
+                <button className="justify-center bg-indigo-900 items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg shadow-xl w-[323px] max-md:px-5">
                   Submit Request
                 </button>
               </div>

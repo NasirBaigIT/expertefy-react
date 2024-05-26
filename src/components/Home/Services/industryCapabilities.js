@@ -81,14 +81,14 @@ const serviceCards = [
 ];
 function ServiceCard({ imgSrc, title }) {
   return (
-    <article class="flex flex-col font-medium text-center text-indigo-900">
-      <div class="image-container flex-none">
+    <article className="flex flex-col font-medium text-center text-indigo-900">
+      <div className="image-container flex-none">
         <img
           alt="{title}"
           src={imgSrc}
-          class="self-center rounded-xl shadow-xl w-[136px]"
+          className="self-center rounded-xl shadow-xl w-[136px]"
         />
-        <h2 class="mt-5 w-[136px]">{title}</h2>
+        <h2 className="mt-5 w-[136px]">{title}</h2>
       </div>
     </article>
   );
