@@ -21,7 +21,7 @@ function ExpertForm() {
   };
   return (
     <section className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full">
-      <div className="flex flex-col self-stretch px-5 w-[50%]">
+      <div className="flex flex-col self-stretch px-5 w-auto">
         <div className="self-center text-5xl font-medium text-center text-indigo-500">
           Expert Registration
         </div>
