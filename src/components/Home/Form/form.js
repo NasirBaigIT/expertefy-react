@@ -88,14 +88,13 @@ const Form = () => {
                 <input
                   type="text"
                   id="name"
-                  className="self-start mt-7 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
+                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
                   placeholder="Your Name"
                   aria-label="Your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
                 />
-                <div className="shrink-0 mt-2 h-0.5 bg-zinc-400"></div>
 
                 <label htmlFor="email" className="sr-only">
                   Your Email
@@ -103,14 +102,13 @@ const Form = () => {
                 <input
                   type="email"
                   id="email"
-                  className="self-start mt-9 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
+                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
                   placeholder="Your Email"
                   aria-label="Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
-                <div className="shrink-0 mt-2 h-0.5 bg-zinc-400"></div>
 
                 <label htmlFor="contactNumber" className="sr-only">
                   Contact Number
@@ -118,21 +116,20 @@ const Form = () => {
                 <input
                   type="tel"
                   id="contactNumber"
-                  className="self-start mt-6 ml-3.5 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
+                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
                   placeholder="Contact Number"
                   aria-label="Contact Number"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
                 />
-                <div className="shrink-0 h-0.5 bg-zinc-400"></div>
 
                 <label htmlFor="projectScope" className="sr-only">
                   Let us know the project scope
                 </label>
                 <textarea
                   id="projectScope"
-                  className="mt-8 ml-4 text-lg leading-[48.06px] text-zinc-400 max-md:ml-2.5"
+                  className="box-border flex relative flex-col shrink-0 px-2.5 pt-2.5 pb-28 my-5 rounded-md border-2 border-indigo-900 border-solid"
                   placeholder="Let us know the project scope"
                   aria-label="Project Scope"
                   value={projectScope}
