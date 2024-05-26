@@ -1,7 +1,9 @@
 import * as React from "react";
 import { ArcherContainer, ArcherElement } from "react-archer";
+import useCheckMobileScreen from "../../util/checkMobileHook";
 
 function ScreeningProcess() {
+  const [isMobile] = React.useState(useCheckMobileScreen());
   return (
     <div className="px-10 py-10 pb-20">
       <ArcherContainer
@@ -22,13 +24,17 @@ function ScreeningProcess() {
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
               <ArcherElement
                 id="root"
-                relations={[
-                  {
-                    targetId: "element2",
-                    targetAnchor: "left",
-                    sourceAnchor: "right",
-                  },
-                ]}
+                relations={
+                  isMobile
+                    ? []
+                    : [
+                        {
+                          targetId: "element2",
+                          targetAnchor: "left",
+                          sourceAnchor: "right",
+                        },
+                      ]
+                }
               >
                 <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col grow pb-11 mx-auto w-full bg-indigo-900 rounded-xl shadow-md max-md:mt-8">
@@ -50,13 +56,17 @@ function ScreeningProcess() {
               </ArcherElement>
               <ArcherElement
                 id="element2"
-                relations={[
-                  {
-                    targetId: "element3",
-                    targetAnchor: "left",
-                    sourceAnchor: "right",
-                  },
-                ]}
+                relations={
+                  isMobile
+                    ? []
+                    : [
+                        {
+                          targetId: "element3",
+                          targetAnchor: "left",
+                          sourceAnchor: "right",
+                        },
+                      ]
+                }
               >
                 <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
                   <div className="flex flex-col grow pb-20 mx-auto w-full bg-indigo-500 rounded-xl shadow-md max-md:mt-8">
@@ -77,13 +87,17 @@ function ScreeningProcess() {
               </ArcherElement>
               <ArcherElement
                 id="element3"
-                relations={[
-                  {
-                    targetId: "element4",
-                    targetAnchor: "top",
-                    sourceAnchor: "bottom",
-                  },
-                ]}
+                relations={
+                  isMobile
+                    ? []
+                    : [
+                        {
+                          targetId: "element4",
+                          targetAnchor: "top",
+                          sourceAnchor: "bottom",
+                        },
+                      ]
+                }
               >
                 <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
                   <div className="flex flex-col grow pb-11 mx-auto w-full bg-indigo-900 rounded-xl shadow-md max-md:mt-8">
@@ -110,13 +124,17 @@ function ScreeningProcess() {
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
               <ArcherElement
                 id="element4"
-                relations={[
-                  {
-                    targetId: "element5",
-                    targetAnchor: "left",
-                    sourceAnchor: "right",
-                  },
-                ]}
+                relations={
+                  isMobile
+                    ? []
+                    : [
+                        {
+                          targetId: "element5",
+                          targetAnchor: "left",
+                          sourceAnchor: "right",
+                        },
+                      ]
+                }
               >
                 <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full ">
                   <div className="flex flex-col grow pb-12 mx-auto w-full bg-indigo-500 rounded-xl shadow-md max-md:mt-8">
@@ -138,13 +156,17 @@ function ScreeningProcess() {
               </ArcherElement>
               <ArcherElement
                 id="element5"
-                relations={[
-                  {
-                    targetId: "element6",
-                    targetAnchor: "left",
-                    sourceAnchor: "right",
-                  },
-                ]}
+                relations={
+                  isMobile
+                    ? []
+                    : [
+                        {
+                          targetId: "element6",
+                          targetAnchor: "left",
+                          sourceAnchor: "right",
+                        },
+                      ]
+                }
               >
                 <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
                   <div className="flex flex-col grow pb-6 mx-auto w-full bg-indigo-900 rounded-xl shadow-md max-md:mt-8">

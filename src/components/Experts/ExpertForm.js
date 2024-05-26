@@ -137,7 +137,7 @@ function ExpertForm() {
         />
         <button
           onClick={handleSubmit}
-          className="justify-center items-center self-center px-4 py-3 mt-8 max-w-full text-2xl font-medium text-center bg-indigo-800 text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5"
+          className="justify-center items-center self-center px-4 py-3 my-8 max-w-full text-2xl font-medium text-center bg-indigo-800 text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5"
         >
           Submit
         </button>
