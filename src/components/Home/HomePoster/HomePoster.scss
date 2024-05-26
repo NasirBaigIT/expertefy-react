@@ -67,37 +67,51 @@
 }
 
 .image-stack {
-  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden; /* Ensure content outside container is hidden */
-  width: 500px; /* Set container width */
+  width: 100%;
   height: 500px; /* Set container height */
+  position: relative; /* Added position: relative for container */
 }
 
-.stacked-image:nth-child(1) {
+.stacked-image {
   position: absolute;
-  margin-top: 90px;
-  top: 0;
-  left: 0;
-  right: -100%; /* Start position outside the view */
-  transition: left 1s ease-in-out; /* Transition effect */
-}
-
-.stacked-image:nth-child(2) {
-  position: absolute;
-  top: 100px;
-  left: 10px;
-  right: -100%; /* Start position outside the view */
   transition: left 1s ease-in-out; /* Transition effect */
 }
 
 .stacked-image:nth-child(3) {
   position: absolute;
+  transition: right 1s ease-in-out; /* Transition effect */
+}
+
+.stacked-image:nth-child(1) {
+  margin-top: 90px;
+  top: 0;
+  left: -100%; /* Start position outside the view */
+}
+
+.stacked-image:nth-child(2) {
+  top: 100px;
+  left: -100%; /* Start position outside the view */
+}
+
+.stacked-image:nth-child(3) {
   top: 80px;
-  left: 500px;
-  right: -100%; /* Start position outside the view */
-  transition: left 1s ease-in-out; /* Transition effect */
+  right: 100%; /* Start position outside the view */
+}
+
+/* Final positions */
+.stacked-image.active:nth-child(1) {
+  left: 0; /* Final position */
+}
+
+.stacked-image.active:nth-child(2) {
+  left: 10px; /* Final position */
+}
+
+.stacked-image.active:nth-child(3) {
+  right: 0; /* Final position */
 }
 
 /* Mobile Styles */
