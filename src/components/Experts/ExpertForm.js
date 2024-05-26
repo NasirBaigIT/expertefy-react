@@ -94,29 +94,29 @@ function ExpertForm() {
         <div className="mt-8 w-full max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-lg font-medium text-indigo-900 whitespace-nowrap max-md:mt-8">
-                <div className="max-md:mt-10">LinkedIn/Website</div>
-                <input
-                  type="url"
-                  placeholder=""
-                  name="Website"
-                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
-                  required
-                  value={websiteUrl}
-                  onChange={(e) => setWebsiteUrl(e.target.value)}
-                />
+              <div className="text-lg font-medium text-indigo-900 max-md:mt-8">
+                Linkedin/Website
               </div>
+              <input
+                type="text"
+                placeholder=""
+                name="WebsiteUrl"
+                className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
+                required
+                value={websiteUrl}
+                onChange={(e) => setWebsiteUrl(e.target.value)}
+              />
             </div>
             <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-lg font-medium text-indigo-900 max-md:mt-8 max-sm:mt-0">
-                <div className="max-md:mt-10">
-                  <span className="">Honorarium for 1 hour call</span>
+              <div className="flex flex-col grow max-md:mt-8">
+                <div className="text-lg font-medium text-indigo-900">
+                  Honorarium for 1 hour call
                 </div>
                 <input
                   type="text"
                   placeholder=""
                   name="Honorarium"
-                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 mb-0 rounded-md border-2 border-indigo-900 border-solid"
+                  className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
                   required
                   value={honorarium}
                   onChange={(e) => setHonorarium(e.target.value)}
