@@ -27,42 +27,44 @@ const Form = () => {
                 collaborations.
               </p>
 
-              <div className="flex justify-between mt-24 max-md:flex-col max-md:mt-10">
-                <section className="flex flex-col font-medium text-center max-md:ml-2.5">
-                  <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
-                    8000+
-                  </h2>
-                  <p className="mt-7 text-lg text-indigo-900 leading-[48.06px]">
-                    Engagements Completed
-                  </p>
-                </section>
-                <section className="flex flex-col font-medium text-center max-md:mr-2.5">
-                  <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
-                    400K+
-                  </h2>
-                  <p className="self-center mt-3.5 text-lg text-indigo-900 leading-[48.06px]">
-                    Expert Panel
-                  </p>
-                </section>
-              </div>
+              <div className="form-left-section lg:ml-auto">
+                <div className="flex justify-between mt-24 max-md:flex-col max-md:mt-10">
+                  <section className="flex flex-col font-medium text-center max-md:ml-2.5">
+                    <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
+                      8000+
+                    </h2>
+                    <p className="mt-7 text-lg text-indigo-900 leading-[48.06px]">
+                      Engagements Completed
+                    </p>
+                  </section>
+                  <section className="flex flex-col font-medium text-center max-md:mr-2.5">
+                    <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
+                      400K+
+                    </h2>
+                    <p className="self-center mt-3.5 text-lg text-indigo-900 leading-[48.06px]">
+                      Expert Panel
+                    </p>
+                  </section>
+                </div>
 
-              <div className="flex justify-between mt-28 max-md:flex-col max-md:mt-10">
-                <section className="flex flex-col font-medium text-center max-md:ml-2.5">
-                  <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
-                    120+
-                  </h2>
-                  <p className="mt-3 text-lg text-indigo-900 leading-[48.06px]">
-                    Industry Niches
-                  </p>
-                </section>
-                <section className="flex flex-col font-medium text-center max-md:mr-2.5">
-                  <h2 className="self-center text-6xl leading-10 text-indigo-500 max-md:text-4xl">
-                    95%
-                  </h2>
-                  <p className="mt-3 text-lg text-indigo-900 leading-[48.06px]">
-                    Returning clients
-                  </p>
-                </section>
+                <div className="flex justify-between mt-28 max-md:flex-col max-md:mt-10">
+                  <section className="flex flex-col font-medium text-center max-md:ml-2.5">
+                    <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
+                      120+
+                    </h2>
+                    <p className="mt-3 text-lg text-indigo-900 leading-[48.06px]">
+                      Industry Niches
+                    </p>
+                  </section>
+                  <section className="flex flex-col font-medium text-center max-md:mr-2.5">
+                    <h2 className="self-center text-6xl leading-10 text-indigo-500 max-md:text-4xl">
+                      95%
+                    </h2>
+                    <p className="mt-3 text-lg text-indigo-900 leading-[48.06px]">
+                      Returning clients
+                    </p>
+                  </section>
+                </div>
               </div>
             </aside>
 
