@@ -98,7 +98,7 @@ const HomePoster = () => {
             </span>
             <br />
             <span
-              className="mx-auto text-sm font-light fading below-text max-w-[300px]"
+              className="mx-auto text-sm font-light fading below-text w-[400px] max-sm:w-[300px]"
               ref={(el) => (textRef.current[6] = el)}
             >
               Connecting consultants and businesses with industry leaders for
