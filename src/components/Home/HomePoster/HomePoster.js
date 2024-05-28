@@ -7,6 +7,7 @@ import main from "../../../assets/homePoster/topMask.png";
 
 const HomePoster = () => {
   const imagesRef = useRef([]);
+  const textRef = useRef([]);
   useEffect(() => {
     // Function to add the 'active' class to each image with a delay
     const addActiveClassWithDelay = () => {
@@ -16,6 +17,13 @@ const HomePoster = () => {
             image.classList.add("active");
           }
         }, index * 1000); // Delay for each image by index * 1000 ms
+      });
+      textRef.current.forEach((text, index) => {
+        setTimeout(() => {
+          if (text) {
+            text.classList.add("active");
+          }
+        }, index * 500); // Delay for each image by index * 1000 ms
       });
     };
 
@@ -47,15 +55,60 @@ const HomePoster = () => {
           </div>
         </div>
         <div className="text-section">
-          <h1>
-            Your <span className="highlight">Trusted</span> Partner for{" "}
-            <span className="highlight">EXPERT</span> Insights
-          </h1>
-          <p>
-            Connecting consultants and businesses with industry leaders for
-            valuable market insights.
-          </p>
-          <div className="buttons">
+          <div className="mx-auto font-medium text-indigo-500 capitalize leading-[64px] max-w-[300px]">
+            <span
+              className="text-5xl font-light fading"
+              ref={(el) => (textRef.current[0] = el)}
+            >
+              Your
+            </span>{" "}
+            <br />
+            <span
+              className="text-7xl text-indigo-900 fading"
+              ref={(el) => (textRef.current[1] = el)}
+            >
+              Trusted
+            </span>
+            <br />
+            <span
+              className="text-6xl font-light text-indigo-500 leading-[56px] fading"
+              ref={(el) => (textRef.current[2] = el)}
+            >
+              Partner{" "}
+            </span>
+            <span
+              className="text-4xl font-light lowercase leading-[56px] fading"
+              ref={(el) => (textRef.current[3] = el)}
+            >
+              for
+            </span>
+            <br />
+            <span
+              className="text-7xl text-indigo-900 uppercase fading"
+              ref={(el) => (textRef.current[4] = el)}
+            >
+              Expert
+            </span>
+            <br />
+            <span
+              className="text-6xl font-light leading-[54px] fading"
+              ref={(el) => (textRef.current[5] = el)}
+            >
+              Insights
+            </span>
+            <br />
+            <span
+              className="mx-auto text-sm font-light fading below-text max-w-[300px]"
+              ref={(el) => (textRef.current[6] = el)}
+            >
+              Connecting consultants and businesses with industry leaders for
+              valuable market insights.
+            </span>
+          </div>
+          <div
+            className="buttons mx-auto fading"
+            ref={(el) => (textRef.current[7] = el)}
+          >
             <button className="need-expert">Need An Expert</button>
             <button className="become-expert">Become An Expert</button>
           </div>

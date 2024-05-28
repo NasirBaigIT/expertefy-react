@@ -37,6 +37,7 @@
 
 .buttons {
   margin-top: 20px;
+  max-width: fit-content;
 }
 
 .need-expert,
@@ -142,4 +143,29 @@
     width: 200px;
     margin-bottom: 10px; /* Space between stacked images */
   }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fading {
+  opacity: 0;
+}
+
+.fading.active {
+  opacity: 100;
+  -webkit-animation: fadein 1s;
+}
+
+.below-text {
+  display: block;
+  min-width: 400px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
