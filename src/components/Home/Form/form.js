@@ -70,7 +70,7 @@ const Form = () => {
               className="flex flex-col w-1/2 self-end pb-8 ml-40 max-w-full bg-white rounded-t-xl shadow-xl max-md:w-full max-md:mt-10 max-md:ml-2.5"
               onSubmit={(e) => handleSubmit(e)}
             >
-              <div className="flex gap-2.5 px-4 py-2 text-xl font-semibold text-white whitespace-nowrap bg-indigo-500 rounded-t-xl shadow-sm max-md:flex-wrap">
+              <div className="flex gap-2.5 px-4 py-2 text-xl font-semibold text-white whitespace-nowrap card-header rounded-t-xl shadow-sm max-md:flex-wrap">
                 <img
                   alt="Expertefy Logo"
                   src={logo}

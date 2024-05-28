@@ -56,7 +56,7 @@ const Offers = () => {
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3.5 -mt-5 text-xl font-medium text-white whitespace-nowrap bg-indigo-500 rounded-t-xl shadow-sm">
+                  <div className="z-10 justify-center items-start px-5 py-3.5 -mt-5 text-xl font-medium text-white whitespace-nowrap card-header rounded-t-xl shadow-sm">
                     Interviews
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">
@@ -78,7 +78,7 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-indigo-500 rounded-t-xl shadow-sm max-md:pr-5">
+                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white card-header rounded-t-xl shadow-sm max-md:pr-5">
                     Expertefy-led Calls
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">
@@ -100,7 +100,7 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-indigo-500 rounded-t-xl shadow-sm max-md:pr-5">
+                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white card-header rounded-t-xl shadow-sm max-md:pr-5">
                     B2B Survey
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">

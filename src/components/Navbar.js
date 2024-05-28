@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`flex gap-5 ${isMobile ? "justify-between items-center" : "justify-center self-center"} max-md:flex-wrap max-md:max-w-full`}
+      className={`flex gap-5 ${isMobile ? "justify-between items-center" : "justify-around self-center"} max-md:flex-wrap max-md:max-w-full`}
     >
       <div className="flex gap-2 px-5 text-xl font-semibold text-indigo-500 whitespace-nowrap">
         <img
