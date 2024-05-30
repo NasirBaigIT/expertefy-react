@@ -1,4 +1,6 @@
 import * as React from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 function ExpertForm() {
   const [email, setEmail] = React.useState("");
@@ -83,14 +85,24 @@ function ExpertForm() {
             <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow text-lg font-medium text-indigo-900 max-md:mt-8">
                 <div>Contact Number</div>
-                <input
-                  type="tel"
-                  placeholder=""
-                  name="ContactNumber"
+                <PhoneInput
                   className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
+                  inputStyle={{ borderStyle: "none", width: "inherit" }}
+                  dropdownStyle={{
+                    borderStyle: "solid",
+                    border: 1,
+                    borderColor: "#6369C4",
+                    backgroundColor: "#fff",
+                  }}
+                  buttonStyle={{
+                    borderStyle: "none",
+                    border: 0,
+                    backgroundColor: "#fff",
+                  }}
                   required
+                  country={"us"}
                   value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
+                  onChange={(ph) => setPhone(ph)}
                 />
               </div>
             </div>
