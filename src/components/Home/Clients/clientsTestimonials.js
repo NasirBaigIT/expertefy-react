@@ -9,7 +9,7 @@ import { Navigation, Pagination } from "swiper/modules";
 // Install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
 
-function Testimonial({ logoSrc, sentence, name, location }) {
+function Testimonial({ logoSrc, sentence, title }) {
   return (
     <article className="flex flex-col justify-center pb-4 w-full bg-white rounded-xl shadow-xl max-md:mt-8">
       <div className="flex justify-center items-center px-16 py-3.5 card-header rounded-xl shadow-sm max-md:px-5">
@@ -19,17 +19,14 @@ function Testimonial({ logoSrc, sentence, name, location }) {
           className="max-w-full aspect-[7.14] w-[152px]"
         />
       </div>
+      <div>
+        <p className="pt-2 px-4 text-lg light-testimonial-text">{title}</p>
+      </div>
       <blockquote className="mx-4 mt-2 text-lg leading-5 text-indigo-500 uppercase max-md:mx-2.5">
-        <p>
-          <span className="text-5xl text-indigo-900 lowercase">“</span>
+        <p className="dark-testimonial-text">
+          <span className="text-5xl lowercase">“</span>
           {sentence}
         </p>
-        <footer className="mt-2">
-          <strong className="text-xl font-medium text-indigo-500">
-            {name}
-          </strong>
-          <span className="block font-medium text-indigo-500">{location}</span>
-        </footer>
       </blockquote>
     </article>
   );
@@ -39,34 +36,23 @@ const testimonials = [
   {
     logoSrc:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/5d0f3d28d63b0ed377625cba0fa9c6adc22cb0bedce7b3936e65aa2e9fc585e1?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    title: "Global Strategy Consultancy Partner",
     sentence:
-      "Global Strategy Consultancy Partner has been a game-changer for our firm. Their swift access to industry expertise has saved us time and resources, allowing us to serve our clients more effectively.",
-    name: "Bradley",
-    location: "United States",
+      "Expertefy has been a game-changer for our firm. Their swift access to industry expertise has saved us time and resources, allowing us to serve our clients more effectively.",
   },
   {
     logoSrc:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/59c8aaffcf471959a123ebf4b4a59039cf8814d579112e5c72677ebbe0ca1c40?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    title: "US Life Science Consultancy Principal",
     sentence:
-      "We've been impressed with Expertefy's affordability and reliability. Their experts are available around the clock, ensuring we get the insights we need when we need them. Expertefy has become an integral part of our process.",
-    name: "Paul",
-    location: "United Kingdom",
+      "We've been impressed with Expertefy's affordability and reliability. Their experts are available around the clock, ensuring we get the insights we need when we need them. Expertefy has become an integral part of our process. Their commitment to confidentiality gives us peace of mind when dealing with sensitive projects.",
   },
   {
     logoSrc:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/f88115be6c6c5e6a9c98cdaa1f28b6e5e71fab787c494fbc0dcced07a53295ba?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    title: "UK Strategy Consultancy Managing Director",
     sentence:
-      "Solid communication and went to bat for competitive pricing. Sid, the account manager, even stayed on the line to ensure there was a connected bridge between expertise, professionalism & rapport. Out of the 4 different firms I've worked with Expertefy stepped into my #1 position!",
-    name: "Mohammed",
-    location: "United Arab Emirates",
-  },
-  {
-    logoSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/f88115be6c6c5e6a9c98cdaa1f28b6e5e71fab787c494fbc0dcced07a53295ba?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
-    sentence:
-      "Solid communication and went to bat for competitive pricing. Sid, the account manager, even stayed on the line to ensure there was a connected bridge between expertise, professionalism & rapport. Out of the 4 different firms I've worked with Expertefy stepped into my #1 position!",
-    name: "Mohammed",
-    location: "United Arab Emirates",
+      "Their flexibility and responsiveness have allowed us to adapt to our clients' evolving needs quickly. Working with them has been a seamless experience.",
   },
 ];
 

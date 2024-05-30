@@ -140,7 +140,7 @@ function ExpertForm() {
           value={experienceDetails}
           onChange={(e) => setExperienceDetails(e.target.value)}
         />
-        <button className="justify-center items-center self-center px-4 py-3 my-8 max-w-full text-2xl font-medium text-center bg-indigo-800 text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5">
+        <button className="justify-center items-center self-center px-4 py-3 my-8 max-w-full text-2xl font-medium text-center dark-button text-white whitespace-nowrap rounded-lg shadow-xl w-[300px] max-md:px-5">
           Submit
         </button>
       </form>

@@ -9,6 +9,11 @@ import banner2 from "../../../assets/offers/banner2.png";
 import banner3 from "../../../assets/offers/banner3.png";
 
 const Offers = () => {
+  const items = React.useState([
+    { name: "Interviews" },
+    { name: "Expertefy-led Calls" },
+    { name: "B2B Survey" },
+  ]);
   return (
     <section className="flex justify-center items-center px-16 py-16 w-full bg-indigo-900 max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col items-center w-full max-w-[1120px] max-md:max-w-full">
@@ -123,9 +128,11 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        <div className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg shadow-xl max-md:px-6 max-md:mt-10">
-          View More
-        </div>
+        {items.length > 3 ? (
+          <div className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg shadow-xl max-md:px-6 max-md:mt-10">
+            View More
+          </div>
+        ) : null}
       </div>
     </section>
   );

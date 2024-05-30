@@ -20,7 +20,7 @@ code {
   width: -webkit-fill-available;
 }
 
-.read-more-button {
+.dark-button {
   background-color: #4B52A6;
 }
 
@@ -34,4 +34,15 @@ code {
 
 .form-left-section {
   width: 90%;
+}
+.dark-button:hover {
+  background-color: #6369c4;
+}
+
+.light-testimonial-text {
+  color: #6369C4;
+}
+
+.dark-testimonial-text {
+  color: #363882;
 }

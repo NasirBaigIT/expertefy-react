@@ -64,15 +64,6 @@ const testimonials = [
     name: "Mohammed",
     location: "United Arab Emirates",
   },
-  {
-    logoSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/f88115be6c6c5e6a9c98cdaa1f28b6e5e71fab787c494fbc0dcced07a53295ba?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
-    title: "Simple and transparent process",
-    sentence:
-      "I was contacted … to help in the form of a phone consultation. The consulting initiation and selection process was simple and transparent. I was properly guided throughout the process. The payment was transferred with in the agreed time period.",
-    name: "Mohammed",
-    location: "United Arab Emirates",
-  },
 ];
 
 const ClientsTestimonials = () => {

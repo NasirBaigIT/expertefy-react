@@ -140,7 +140,7 @@ const Form = () => {
                 ></textarea>
                 <div className="shrink-0 mt-16 h-0.5 bg-zinc-400 max-md:mt-10"></div>
 
-                <button className="justify-center bg-indigo-900 items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg shadow-xl w-[323px] max-md:px-5">
+                <button className="justify-center dark-button items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg shadow-xl w-[323px] max-md:px-5">
                   Submit Request
                 </button>
               </div>
