@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import logo from "../../../assets/form/Logo.png";
+import PhoneInput from "react-phone-input-2";
 
 const Form = () => {
   const [name, setName] = React.useState("");
@@ -112,18 +113,24 @@ const Form = () => {
                   required
                 />
 
-                <label htmlFor="contactNumber" className="sr-only">
-                  Contact Number
-                </label>
-                <input
-                  type="tel"
-                  id="contactNumber"
+                <PhoneInput
                   className="box-border flex relative flex-col shrink-0 p-2.5 mt-5 rounded-md border-2 border-indigo-900 border-solid"
-                  placeholder="Contact Number"
-                  aria-label="Contact Number"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
+                  inputStyle={{ borderStyle: "none", width: "inherit" }}
+                  dropdownStyle={{
+                    borderStyle: "solid",
+                    border: 1,
+                    borderColor: "#6369C4",
+                    backgroundColor: "#fff",
+                  }}
+                  buttonStyle={{
+                    borderStyle: "none",
+                    border: 0,
+                    backgroundColor: "#fff",
+                  }}
                   required
+                  country={"us"}
+                  value={phone}
+                  onChange={(ph) => setPhone(ph)}
                 />
 
                 <label htmlFor="projectScope" className="sr-only">
