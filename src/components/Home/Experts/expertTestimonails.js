@@ -20,12 +20,12 @@ function Testimonial({ logoSrc, sentence, name, location, title }) {
         />
       </div>
       <blockquote className="mx-4 mt-2 text-lg leading-5 text-indigo-500 uppercase max-md:mx-2.5">
-        <h2>{title}</h2>
-        <p>
-          <span className="text-5xl text-indigo-900 lowercase">“</span>
+        <h2 className="">{title}</h2>
+        <p className="dark-testimonial-text">
+          <span className="text-5xl lowercase">“</span>
           {sentence}
         </p>
-        <footer className="mt-2">
+        <footer className="mt-3 float-right">
           <strong className="text-xl font-medium text-indigo-500">
             {name}
           </strong>
