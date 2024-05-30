@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "../scss/Footer.scss";
-import Trustpilot from "../assets/svg/Trustpilot.svg";
+import ticket from "../assets/footer/Ticket.png";
 
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center self-stretch mt-28 w-full text-white bg-indigo-900 max-md:mt-10 max-md:max-w-full">
       <img
         alt="Expertefy Logo"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2289c89057a1da8461266edc53099e499e17218119c6b1ff62c55deef1fdc6c6?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
-        className="z-10 mt-0 max-w-full aspect-[5] w-[748px] margin-top--5"
+        src={ticket}
+        className="z-10 mt-0 max-w-full w-[748px] margin-top--5"
       />
-      <div className="flex gap-5 items-start mt-8 max-w-full text-center w-[755px] max-md:flex-wrap">
+      <div className="flex gap-5 items-start mt-2 max-w-full text-center w-[755px] max-md:flex-wrap">
         <div className="flex gap-2 items-start text-3xl font-medium whitespace-nowrap">
           <img
             alt="Trustpilot Logo"
