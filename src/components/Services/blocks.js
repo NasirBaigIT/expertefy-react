@@ -66,7 +66,7 @@ function ServiceBlocks() {
           </div>
           <div className="flex flex-col flex-wrap justify-center content-start px-3.5 mt-4 w-full max-w-[1013px] max-md:max-w-full">
             <div className="flex gap-3 text-lg font-medium text-center text-white max-md:flex-wrap">
-              <div className="flex flex-col">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner1Icon1}
@@ -84,7 +84,7 @@ function ServiceBlocks() {
                   One-on-one session or a group setting
                 </div>
               </div>
-              <div className="flex flex-col px-1.5 py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner1Icon3}
@@ -95,7 +95,7 @@ function ServiceBlocks() {
                   Free audio recording & AI transcript
                 </div>
               </div>
-              <div className="flex flex-col py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner1Icon4}
@@ -103,7 +103,7 @@ function ServiceBlocks() {
                 />
                 <div className="mt-4">Custom recruitment for each project</div>
               </div>
-              <div className="flex flex-col py-px pr-1 pl-2.5">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner1Icon5}
@@ -200,9 +200,9 @@ function ServiceBlocks() {
           <div className="mt-4 text-3xl font-medium text-white capitalize">
             Our offering includes
           </div>
-          <div className="flex flex-col flex-wrap justify-center content-start px-3.5 mt-4 w-full max-w-[1013px] max-md:max-w-full">
-            <div className="flex gap-3 text-lg font-medium text-center text-white max-md:flex-wrap">
-              <div className="flex flex-col">
+          <div className="flex flex-col flex-wrap justify-center content-start px-3.5 mt-4 w-full">
+            <div className="flex gap-5 text-lg font-medium text-center text-white max-md:flex-wrap">
+              <div className="flex flex-col px-2 max-md:px-10">
                 <img
                   loading="lazy"
                   src={banner2Incon1}
@@ -220,7 +220,7 @@ function ServiceBlocks() {
                   One-on-one session or a group setting
                 </div>
               </div>
-              <div className="flex flex-col px-1.5 py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner2Incon3}
@@ -231,7 +231,7 @@ function ServiceBlocks() {
                   Audio recording & manual transcript{" "}
                 </div>
               </div>
-              <div className="flex flex-col py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner2Incon4}
@@ -239,7 +239,7 @@ function ServiceBlocks() {
                 />
                 <div className="mt-4">Custom recruitment for each project</div>
               </div>
-              <div className="flex flex-col py-px pr-1 pl-2.5">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner2Incon5}
@@ -250,7 +250,7 @@ function ServiceBlocks() {
                   Post-consultation follow-ups at no extra charge
                 </div>
               </div>
-              <div className="flex flex-col py-px pr-1 pl-2.5">
+              <div className="flex flex-col px-2 max-md:px-16">
                 <img
                   loading="lazy"
                   src={banner2Incon6}
@@ -296,7 +296,7 @@ function ServiceBlocks() {
           </div>
           <div className="flex flex-col flex-wrap justify-center content-start px-3.5 mt-4 w-full max-w-[1013px] max-md:max-w-full">
             <div className="flex gap-3 text-lg font-medium text-center text-white max-md:flex-wrap">
-              <div className="flex flex-col">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner3Icon1}
@@ -314,7 +314,7 @@ function ServiceBlocks() {
                   One-on-one session or a group setting
                 </div>
               </div>
-              <div className="flex flex-col px-1.5 py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner3Icon3}
@@ -325,7 +325,7 @@ function ServiceBlocks() {
                   Free audio recording & AI transcript
                 </div>
               </div>
-              <div className="flex flex-col py-px">
+              <div className="flex flex-col px-2">
                 <img
                   loading="lazy"
                   src={banner3Icon4}
