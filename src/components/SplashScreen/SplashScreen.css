@@ -5,6 +5,7 @@
     height: 100vh;
     /* background-color: #6369C4; */
     background-color: rgb(53, 58, 127);
+    animation: zoom-in 3s ease infinite;
   }
   
   .splash-gif {
@@ -12,3 +13,20 @@
     height: 100px;
   }
   
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1, 1);
+    }
+    75% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(20, 20);
+    }
+  }

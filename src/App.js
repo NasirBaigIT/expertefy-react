@@ -18,7 +18,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Change the timeout duration as needed
+    }, 2500); // Change the timeout duration as needed
 
     return () => clearTimeout(timer);
   }, []);
