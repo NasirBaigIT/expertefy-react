@@ -4,11 +4,11 @@
     align-items: center;
     height: 100vh;
     /* background-color: #6369C4; */
-    background-color: rgb(51, 49, 122);
+    background-color: rgb(53, 58, 127);
   }
   
   .splash-gif {
     max-width: 100%;
-    height: auto;
+    height: 100px;
   }
   

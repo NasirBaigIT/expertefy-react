@@ -1,9 +1,7 @@
 import React from "react";
 import "./SplashScreen.css"; // Import the CSS file for styling
 
-import loadingGif from "../../assets/loader/loading.gif";
-import frame1 from "../../assets/loader/frame1.png";
-import frame2 from "../../assets/loader/frame2.png";
+import loadingGif from "../../assets/loader/test2.gif";
 
 const SplashScreen = () => {
   return (
