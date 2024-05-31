@@ -137,7 +137,7 @@ const IndustryCapabilities = () => {
         </div>
         <section className="text-lg font-medium text-center text-indigo-900 capitalize total-available-width">
           {chunkArray(serviceCards, chunkSize).map((chunk, rowIndex) => (
-            <div key={rowIndex} className="flex justify-center mt-5">
+            <div key={rowIndex} className="flex md:justify-center mt-5">
               {chunk.map((card, index) => (
                 <ServiceCard key={index} {...card} />
               ))}
