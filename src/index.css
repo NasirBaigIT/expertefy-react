@@ -46,3 +46,7 @@ code {
 .dark-testimonial-text {
   color: #363882;
 }
+
+.swiper-wrapper {
+  margin-bottom: 20px;
+}

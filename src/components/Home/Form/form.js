@@ -48,7 +48,7 @@ const Form = () => {
                   </section>
                 </div>
 
-                <div className="flex justify-between mt-28 max-md:flex-col max-md:mt-10">
+                <div className="flex justify-between mt-28 max-md:flex-col max-md:mt-2">
                   <section className="flex flex-col font-medium text-center max-md:mr-2.5 max-md:my-5">
                     <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
                       400K+

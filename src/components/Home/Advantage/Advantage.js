@@ -5,13 +5,13 @@ const Advantage = () => {
     <>
       <section className="mt-20 text-5xl font-medium leading-10 text-center text-indigo-500 capitalize max-md:mt-10 max-md:max-w-full">
         The Expertefy Advantage
-        <p className="mt-2.5 text-lg text-center text-indigo-900 max-md:max-w-full">
+        <p className="mt-2.5 text-lg text-center text-indigo-900 max-md:max-w-full p-5">
           At Expertefy, we merge deep market understanding with agile
           connectivity to provide an unrivaled expert network service. Here's
           what sets us apart:
         </p>
       </section>
-      <section className="flex justify-center items-center py-16 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <section className="flex justify-center items-center w-full max-md:px-5 max-md:mt-2 max-md:max-w-full mb-20">
         <div className="flex flex-col w-full max-w-[1120px] max-md:max-w-full">
           <div>
             <section className="mt-6 w-full max-w-[1120px] max-md:max-w-full">

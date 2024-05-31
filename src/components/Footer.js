@@ -10,8 +10,8 @@ const Footer = () => {
         src={ticket}
         className="z-10 mt-0 max-w-full w-[748px] margin-top--5"
       />
-      <div className="flex gap-5 items-start mt-2 max-w-full text-center w-[755px] max-md:flex-wrap">
-        <div className="flex gap-2 items-start text-3xl font-medium whitespace-nowrap">
+      <div className="flex gap-5 items-start justify-center mt-2 max-w-full text-center w-[755px] max-md:flex-wrap">
+        <div className="flex gap-2 text-3xl font-medium whitespace-nowrap">
           <img
             alt="Trustpilot Logo"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/bde7374a7dae77ec453e5c0a27982f886c4efa113de86123711de2066601277e?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
@@ -19,7 +19,7 @@ const Footer = () => {
           />
           <span className="flex-auto mt-3">Trustpilot</span>
         </div>
-        <div className="flex flex-auto gap-5 mt-1.5 text-xl max-md:flex-wrap">
+        <div className="flex flex-auto gap-5 mt-1.5 text-xl">
           <img
             alt="Trustpilot Rating"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b1f48573c2e7c62cb6d8c835a6051c69e29d0ff0053c0076c6bad4a624cd21b?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
@@ -39,7 +39,7 @@ const Footer = () => {
           Connecting you to top-tier professionals across diverse industries.
         </span>
       </h2>
-      <div className="flex gap-2 mt-7 text-lg font-medium max-md:flex-wrap">
+      <div className="flex gap-2 mt-7 text-lg font-medium">
         <img
           alt="Location Icon"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/8fa874f95b005b2d3bddbf416ee02636c6f8d472c9b0488dc6fcbd5963fd6fbe?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"

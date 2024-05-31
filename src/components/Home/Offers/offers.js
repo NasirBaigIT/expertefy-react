@@ -31,19 +31,19 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow py-0.5 text-lg font-medium text-center text-white capitalize max-md:mt-6">
                 <img alt="" src={image1} className="self-center" />
-                <h2 className="mt-4">Access to top-tier expertise</h2>
+                <h2 className="mt-2">Access to top-tier expertise</h2>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow py-0.5 text-lg font-medium text-center text-white capitalize max-md:mt-6">
                 <img alt="" src={image2} className="self-center" />
-                <h2 className="mt-4">Customized & targeted research</h2>
+                <h2 className="mt-2">Customized & targeted research</h2>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow py-0.5 text-lg font-medium text-center text-white capitalize max-md:mt-6">
                 <img alt="" src={image3} className="self-center" />
-                <h2 className="mt-4">
+                <h2 className="mt-2">
                   list of available experts for review in 24h
                 </h2>
               </div>
@@ -51,7 +51,7 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow py-0.5 text-lg font-medium text-center text-white capitalize max-md:mt-6">
                 <img alt="" src={image4} className="self-center" />
-                <h2 className="mt-4">Confidentiality & anonymity</h2>
+                <h2 className="mt-2">Confidentiality & anonymity</h2>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Offers = () => {
                   <img
                     alt=""
                     src={banner1}
-                    className="mt-9 w-full aspect-[2.04]"
+                    className="mt-16 w-full aspect-[2.04]"
                   />
                 </div>
               </div>
