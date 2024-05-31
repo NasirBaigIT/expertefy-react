@@ -82,7 +82,7 @@ const serviceCards = [
 function ServiceCard({ imgSrc, title }) {
   return (
     <article className="flex flex-col font-medium text-center text-indigo-900">
-      <div className="industry-image-container flex-none">
+      <div className="lg:ml-14 max-md:ml-10 flex-none">
         <img
           alt="{title}"
           src={imgSrc}
