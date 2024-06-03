@@ -28,9 +28,8 @@ const App = () => {
   ) : (
     <Router>
       <div className="flex flex-col bg-white shadow-xl px-30">
-        <header>
+        <header className="sticky top-0 bg-white z-50">
           <Navbar />
-          <div className="mt-3 w-full bg-indigo-500 shadow-xl min-h-[2px] max-md:max-w-full"></div>
         </header>
 
         <Routes>
