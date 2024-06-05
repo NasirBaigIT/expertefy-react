@@ -56,7 +56,7 @@ function ServiceBlocks() {
                 <img
                   loading="lazy"
                   src={banner1}
-                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full"
+                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full rounded-xl"
                 />
               </div>
             </div>
@@ -192,7 +192,7 @@ function ServiceBlocks() {
                 <img
                   loading="lazy"
                   src={banner2}
-                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full"
+                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full rounded-xl"
                 />
               </div>
             </div>
@@ -286,7 +286,7 @@ function ServiceBlocks() {
                 <img
                   loading="lazy"
                   src={banner3}
-                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full"
+                  className="grow w-full aspect-[1.85] max-md:mt-2 max-md:max-w-full rounded-xl"
                 />
               </div>
             </div>
