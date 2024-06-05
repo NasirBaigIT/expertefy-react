@@ -123,7 +123,7 @@ const IndustryCapabilities = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center px-5 mt-24 w-full max-md:mt-10 max-md:max-w-full">
+      <section className="flex flex-col items-center px-5 w-full max-md:mt-10 max-md:max-w-full">
         <div>
           <h2 className="mt-20 text-5xl font-medium leading-10 text-center text-indigo-500 max-md:mt-10 max-md:max-w-full">
             Diverse Industry Capabilities

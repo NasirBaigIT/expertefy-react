@@ -68,7 +68,7 @@ const testimonials = [
 
 const ClientsTestimonials = () => {
   return (
-    <section className="flex flex-col items-center px-5 mt-24 w-full max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-col items-center px-5 mt-20 w-full max-md:mt-10 max-md:max-w-full">
       <div className="text-base leading-4 text-center text-indigo-500">
         <span className="text-lg text-indigo-900">TESTIMONIALS</span>
         <br />
