@@ -4,7 +4,7 @@ import ticket from "../assets/footer/Ticket.png";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center self-stretch mt-28 w-full text-white bg-indigo-900 max-md:mt-10 max-md:max-w-full">
+    <footer className="flex flex-col items-center self-stretch mt-28 w-full text-white bg-dark-indigo max-md:mt-10 max-md:max-w-full">
       <img
         alt="Expertefy Logo"
         src={ticket}
@@ -80,15 +80,19 @@ const Footer = () => {
           className="shrink-0 w-6 aspect-square"
         />
       </div>
-      <div className="flex justify-center items-center self-stretch px-16 py-4 mt-4 w-full text-lg font-medium max-md:px-5 max-md:max-w-full">
+      <div className="flex justify-center items-center self-stretch px-16 py-4 mt-4 w-full text-lg font-medium max-md:px-5 max-md:max-w-full bg-light-indigo">
         <span className="flex gap-2.5">
-          <span className="text-center">Copyright</span>
+          <span className="text-center">
+            <strong>Copyright</strong>
+          </span>
           <img
             alt="Copyright Icon"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a9951ebc6b4a9e2b4526a36ae5de0ecbc73ea5f8c8ba811d5f0e6eb44043fd2?apiKey=3756b57bedc84c2cbd55485bb12ec63c&"
             className="shrink-0 w-5 aspect-square fill-white"
           />
-          <span className="flex-auto">2024 expertefy.com</span>
+          <span className="flex-auto">
+            <strong>2024 expertefy.com</strong>
+          </span>
         </span>
       </div>
     </footer>

@@ -17,7 +17,7 @@ const Advantage = () => {
             <section className="mt-6 w-full max-w-[1120px] max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center py-px w-full text-lg leading-5 text-white bg-indigo-500 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center py-px w-full text-lg leading-5 text-white bg-light-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative z-10 flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Precision-Paired Proficiency Background"
@@ -42,7 +42,7 @@ const Advantage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center py-px w-full text-lg leading-5 text-white bg-indigo-900 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center py-px w-full text-lg leading-5 text-white bg-dark-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative z-10 flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Accelerated Insight Access Background"
@@ -71,7 +71,7 @@ const Advantage = () => {
             <section className="mt-6 w-full max-w-[1119px] max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center w-full text-lg text-white bg-indigo-900 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center w-full text-lg text-white bg-dark-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Comprehensive Coverage Background"
@@ -97,7 +97,7 @@ const Advantage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center w-full text-lg leading-5 text-white uppercase bg-indigo-500 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center w-full text-lg leading-5 text-white uppercase bg-light-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Unmatched Flexibility Background"
@@ -128,7 +128,7 @@ const Advantage = () => {
             <section className="mt-6 w-full max-w-[1119px] max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center w-full text-lg text-white bg-indigo-500 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center w-full text-lg text-white bg-light-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Global Reach, Personal Touch Background"
@@ -153,7 +153,7 @@ const Advantage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center w-full text-lg leading-5 text-white uppercase bg-indigo-900 rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
+                  <div className="flex flex-col grow justify-center w-full text-lg leading-5 text-white uppercase bg-dark-indigo rounded-xl shadow-xl max-md:mt-8 max-md:max-w-full">
                     <div className="overflow-hidden relative flex-col justify-center p-4 w-full min-h-[126px] max-md:max-w-full">
                       <img
                         alt="Trust Through Transparency Background"

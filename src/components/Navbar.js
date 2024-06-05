@@ -106,7 +106,7 @@ const Navbar = () => {
           </a>
         </nav>
       </header>
-      <div className="mt-3 w-full bg-indigo-500 shadow-xl min-h-[2px] max-md:max-w-full"></div>
+      <div className="mt-3 w-full bg-light-indigo shadow-xl min-h-[2px] max-md:max-w-full"></div>
     </>
   );
 };

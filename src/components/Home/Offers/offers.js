@@ -7,15 +7,12 @@ import image4 from "../../../assets/offers/4.png";
 import banner1 from "../../../assets/offers/banner1.png";
 import banner2 from "../../../assets/offers/banner2.png";
 import banner3 from "../../../assets/offers/banner3.png";
+import { useNavigate } from "react-router-dom";
 
 const Offers = () => {
-  const items = React.useState([
-    { name: "Interviews" },
-    { name: "Expertefy-led Calls" },
-    { name: "B2B Survey" },
-  ]);
+  const navigate = useNavigate();
   return (
-    <section className="flex justify-center items-center px-16 py-16 w-full bg-indigo-900 max-md:px-5 max-md:max-w-full">
+    <section className="flex justify-center items-center px-16 py-16 w-full bg-dark-indigo max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col items-center w-full max-w-[1120px] max-md:max-w-full">
         <h1 className="text-5xl font-medium leading-10 text-center text-white capitalize">
           What we offer
@@ -61,7 +58,7 @@ const Offers = () => {
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3.5 -mt-5 text-xl font-medium text-white whitespace-nowrap card-header rounded-t-xl shadow-sm">
+                  <div className="z-10 justify-center items-start px-5 py-3.5 -mt-5 text-xl font-medium text-white whitespace-nowrap bg-light-indigo rounded-t-xl shadow-sm">
                     Interviews
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">
@@ -83,7 +80,7 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white card-header rounded-t-xl shadow-sm max-md:pr-5">
+                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-light-indigo rounded-t-xl shadow-sm max-md:pr-5">
                     Expertefy-led Calls
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">
@@ -105,7 +102,7 @@ const Offers = () => {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
-                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white card-header rounded-t-xl shadow-sm max-md:pr-5">
+                  <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-light-indigo rounded-t-xl shadow-sm max-md:pr-5">
                     B2B Survey
                   </div>
                   <p className="mt-4 text-lg text-indigo-900 px-5">
@@ -129,9 +126,12 @@ const Offers = () => {
           </div>
         </div>
 
-        <div className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button">
+        <button
+          className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button"
+          onClick={() => navigate("/services")}
+        >
           View More
-        </div>
+        </button>
       </div>
     </section>
   );

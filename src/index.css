@@ -24,10 +24,6 @@ code {
   background-image: linear-gradient(105deg, #363882, #6369C4);
 }
 
-.card-header {
-  background-color: #6369C4;
-}
-
 
 .form-left-section {
   @media (min-width: 768px) {
@@ -65,4 +61,12 @@ code {
 .navbar-fading {
   opacity: 100;
   -webkit-animation: fadein 2s;
+}
+
+.bg-dark-indigo {
+  background-color: #363882;
+}
+
+.bg-light-indigo {
+  background-color: #6369C4;
 }

@@ -12,7 +12,7 @@ SwiperCore.use([Pagination, Navigation]);
 function Testimonial({ logoSrc, sentence, name, location, title }) {
   return (
     <article className="flex flex-col justify-center pb-4 w-full bg-white rounded-xl shadow-xl max-md:mt-8">
-      <div className="flex justify-center items-center px-16 py-3.5 card-header rounded-xl shadow-sm max-md:px-5">
+      <div className="flex justify-center items-center px-16 py-3.5 bg-light-indigo rounded-xl shadow-sm max-md:px-5">
         <img
           alt="Client Logo"
           src={logoSrc}

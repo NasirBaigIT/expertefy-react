@@ -33,7 +33,7 @@ function ServiceBlocks() {
       <div className="flex flex-col w-full max-w-[1120px] max-md:max-w-full">
         {/* First banner */}
         <Reveal>
-          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-indigo-900 rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
+          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-dark-indigo rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
             <div className="self-stretch max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -174,7 +174,7 @@ function ServiceBlocks() {
         </Reveal>
         {/* Second banner */}
         <Reveal>
-          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-indigo-900 rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
+          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-dark-indigo rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
             <div className="self-stretch max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -272,7 +272,7 @@ function ServiceBlocks() {
 
         {/* Third banner */}
         <Reveal>
-          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-indigo-900 rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
+          <div className="flex flex-col flex-wrap justify-center content-start items-center p-5 mt-7  bg-dark-indigo rounded-xl shadow-xl w-full max-w-[1120px] max-md:max-w-full">
             <div className="self-stretch max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">

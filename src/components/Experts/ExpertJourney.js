@@ -4,7 +4,7 @@ import useCheckMobileScreen from "../../util/checkMobileHook";
 
 function ExpertJourney() {
   return (
-    <div className="flex justify-center items-center px-16 py-10 text-white bg-indigo-900 max-md:px-5">
+    <div className="flex justify-center items-center px-16 py-10 text-white bg-dark-indigo max-md:px-5">
       <div
         className={`flex gap-4 max-md:flex-wrap ${
           useCheckMobileScreen() ? "w-1/1" : "w-1/2"
