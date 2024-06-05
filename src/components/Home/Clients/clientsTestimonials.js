@@ -54,6 +54,13 @@ const testimonials = [
     sentence:
       "Their flexibility and responsiveness have allowed us to adapt to our clients' evolving needs quickly. Working with them has been a seamless experience.",
   },
+  {
+    logoSrc:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/f88115be6c6c5e6a9c98cdaa1f28b6e5e71fab787c494fbc0dcced07a53295ba?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    title: "Global Consulting Firm Engagement Manager",
+    sentence:
+      "Expertefy's personalized approach sets them apart. They took the time to understand our unique needs in the renewable energy sector and connected us with experts who provided invaluable insights.",
+  },
 ];
 
 const ClientsTestimonials = () => {

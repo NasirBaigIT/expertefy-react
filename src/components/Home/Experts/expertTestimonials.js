@@ -64,6 +64,15 @@ const testimonials = [
     name: "Mohammed",
     location: "United Arab Emirates",
   },
+  {
+    logoSrc:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/f88115be6c6c5e6a9c98cdaa1f28b6e5e71fab787c494fbc0dcced07a53295ba?apiKey=3756b57bedc84c2cbd55485bb12ec63c&",
+    title: "Knowledge sharing satisfactory experience",
+    sentence:
+      "I was contacted by Expertefy … with a request for an expert consultation on electrical distribution infrastructure. As I have vast experience on the subject, I agreed to have a one hour consultation with a Expertefy customer that needed an overview of the latest trends in this market. The discussion was useful to the client and I had great satisfaction to share my knowledge and insights.",
+    name: "Juan",
+    location: "France",
+  },
 ];
 
 const ClientsTestimonials = () => {

@@ -70,3 +70,25 @@ code {
 .bg-light-indigo {
   background-color: #6369C4;
 }
+
+.swiper-button-prev {
+  display: none !important;
+}
+.swiper-button-next {
+  display: none !important;
+}
+.swiper-wrapper {
+  margin-bottom: 48px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 100px !important;
+  height: 4px !important;
+  border-radius: 0 !important;
+  background-color: rgb(54,56,130, 0.8) !important;
+
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6369C4 !important;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Clients/Header";
 import ExpertBanner from "../components/Experts/ExpertBanner";
-import ExpertTestimonials from "../components/Home/Experts/expertTestimonails";
+import ExpertTestimonials from "../components/Home/Experts/expertTestimonials";
 
 import expertBanner1 from "../assets/experts/experts-banner-1.png";
 import expertBanner2 from "../assets/experts/experts-banner-2.png";
