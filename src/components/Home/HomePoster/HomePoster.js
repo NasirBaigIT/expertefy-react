@@ -4,10 +4,13 @@ import styles from "./HomePoster.scss";
 import left from "../../../assets/homePoster/leftBar.png";
 import right from "../../../assets/homePoster/rightBar.png";
 import main from "../../../assets/homePoster/topMask.png";
+import { Link, useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const HomePoster = () => {
   const imagesRef = useRef([]);
   const textRef = useRef([]);
+  const navigate = useNavigate();
   useEffect(() => {
     // Function to add the 'active' class to each image with a delay
     const addActiveClassWithDelay = () => {
@@ -109,11 +112,21 @@ const HomePoster = () => {
             className="buttons mx-auto fading"
             ref={(el) => (textRef.current[7] = el)}
           >
-            <button className="need-expert dark-button h-14  shadow-xl">
+            <button
+              className="need-expert dark-button h-14 shadow-xl"
+              onClick={() => {
+                const element = document.getElementById("need-an-expert-form");
+                element?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
               Need An Expert
             </button>
-            <button className="become-expert h-14  shadow-xl">
-              Become An Expert
+            <button className="become-expert h-14 shadow-xl">
+              <HashLink smooth to="/experts#become-expert-form">
+                Become An Expert
+              </HashLink>
             </button>
           </div>
         </div>

@@ -24,7 +24,10 @@ function ExpertForm() {
     console.log(expert);
   };
   return (
-    <section className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full">
+    <section
+      className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full"
+      id="become-expert-form"
+    >
       <form
         className="flex flex-col self-stretch px-5 w-auto"
         onSubmit={(e) => handleSubmit(e)}
