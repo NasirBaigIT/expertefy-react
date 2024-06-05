@@ -8,6 +8,7 @@ import expertBanner2 from "../assets/experts/experts-banner-2.png";
 import ExpertEngagementProcess from "../components/Experts/ExpertEngagementProcess";
 import ExpertJourney from "../components/Experts/ExpertJourney";
 import ExpertForm from "../components/Experts/ExpertForm";
+import Reveal from "../components/Reveal";
 
 const Experts = () => {
   const title = "Leverage Your Expertise";
@@ -30,12 +31,25 @@ const Experts = () => {
   return (
     <>
       <Header title={title} description={description} />
-      <ExpertBanner banner={banner1} />
-      <ExpertBanner banner={banner2} />
-      <ExpertJourney />
-      <ExpertEngagementProcess />
-      <ExpertTestimonials />
-      <ExpertForm />
+
+      <Reveal>
+        <ExpertBanner banner={banner1} />
+      </Reveal>
+      <Reveal>
+        <ExpertBanner banner={banner2} />
+      </Reveal>
+      <Reveal>
+        <ExpertJourney />
+      </Reveal>
+      <Reveal>
+        <ExpertEngagementProcess />
+      </Reveal>
+      <Reveal>
+        <ExpertTestimonials />
+      </Reveal>
+      <Reveal>
+        <ExpertForm />
+      </Reveal>
     </>
   );
 };

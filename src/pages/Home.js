@@ -8,21 +8,36 @@ import ExpertTestimonials from "../components/Home/Experts/expertTestimonails";
 import IndustryCapabilities from "../components/Home/Services/industryCapabilities";
 import Banner from "../components/Home/Banner/banner";
 import Advantage from "../components/Home/Advantage/Advantage";
+import Reveal from "../components/Reveal";
 
 function Home() {
   return (
     <div className="flex flex-col bg-white shadow-xl">
       <HomePoster />
       <main>
-        <Offers />
-        <Form />
-        <ClientsTestimonials />
-        <IndustryCapabilities />
-        <ExpertTestimonials />
+        <Reveal>
+          <Offers />
+        </Reveal>
+        <Reveal>
+          <Form />
+        </Reveal>
+        <Reveal>
+          <ClientsTestimonials />
+        </Reveal>
+        <Reveal>
+          <IndustryCapabilities />
+        </Reveal>
+        <Reveal>
+          <ExpertTestimonials />
+        </Reveal>
         <div className="mt-20">
-          <Banner />
+          <Reveal>
+            <Banner />
+          </Reveal>
         </div>
-        <Advantage />
+        <Reveal>
+          <Advantage />
+        </Reveal>
       </main>
     </div>
   );

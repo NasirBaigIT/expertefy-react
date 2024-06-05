@@ -39,14 +39,16 @@ const Navbar = () => {
         className={`flex navbar-fading sticky top-0 gap-5 ${isMobile ? "justify-between items-center" : "justify-around self-center"} max-md:flex-wrap max-md:max-w-full`}
       >
         <div className="flex gap-2 px-5 text-xl font-semibold text-indigo-500 whitespace-nowrap">
-          <img
-            alt="Expertefy Logo"
-            src={expertefyLogo}
-            className="shrink-0 aspect-[1.04] w-[57px]"
-          />
-          <span className="my-auto hidden md:block">
-            <img src={expertefyText} alt="Expertefy" />
-          </span>
+          <Link to="/">
+            <img
+              alt="Expertefy Logo"
+              src={expertefyLogo}
+              className="shrink-0 aspect-[1.04] w-[57px]"
+            />
+            <span className="my-auto hidden md:block">
+              <img src={expertefyText} alt="Expertefy" />
+            </span>
+          </Link>
         </div>
         <BurgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
         <nav
