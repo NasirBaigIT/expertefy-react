@@ -1,7 +1,9 @@
 import * as React from "react";
 import SuccessStoriesSvg from "../../../assets/svg/SuccessStories.svg"; // Assuming your image path
+import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
+  const navigate = useNavigate();
   return (
     <section className="flex flex-col justify-center self-stretch w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-14 w-full min-h-[512px] max-md:px-5 max-md:max-w-full">
@@ -22,7 +24,10 @@ const Banner = () => {
                     Expert knowledge and market insights into any industry in
                     every corner of the world
                   </p>
-                  <button className="justify-center self-center px-16 py-5 mt-20 text-2xl text-center rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button">
+                  <button
+                    className="justify-center self-center px-16 py-5 mt-20 text-2xl text-center rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button"
+                    onClick={() => navigate("/success-stories")}
+                  >
                     Read More
                   </button>
                 </div>
