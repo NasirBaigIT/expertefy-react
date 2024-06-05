@@ -30,7 +30,10 @@ code {
 
 
 .form-left-section {
-  width: 90%;
+  @media (min-width: 768px) {
+    width: 90%;
+    margin-left: auto;
+  }
 }
 .dark-button:hover {
   background-color: #6369c4;
