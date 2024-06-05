@@ -22,7 +22,7 @@ const Banner = () => {
                     Expert knowledge and market insights into any industry in
                     every corner of the world
                   </p>
-                  <button className="justify-center self-center px-16 py-5 mt-20 text-2xl text-center rounded-lg shadow-xl max-md:px-6 max-md:mt-10 dark-button">
+                  <button className="justify-center self-center px-16 py-5 mt-20 text-2xl text-center rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button">
                     Read More
                   </button>
                 </div>

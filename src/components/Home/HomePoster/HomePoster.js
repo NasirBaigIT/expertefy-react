@@ -109,10 +109,12 @@ const HomePoster = () => {
             className="buttons mx-auto fading"
             ref={(el) => (textRef.current[7] = el)}
           >
-            <button className="need-expert dark-button h-14">
+            <button className="need-expert dark-button h-14  drop-shadow-2xl">
               Need An Expert
             </button>
-            <button className="become-expert h-14">Become An Expert</button>
+            <button className="become-expert h-14  drop-shadow-2xl">
+              Become An Expert
+            </button>
           </div>
         </div>
       </div>

@@ -128,11 +128,10 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        {items.length > 3 ? (
-          <div className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg shadow-xl max-md:px-6 max-md:mt-10">
-            View More
-          </div>
-        ) : null}
+
+        <div className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button">
+          View More
+        </div>
       </div>
     </section>
   );

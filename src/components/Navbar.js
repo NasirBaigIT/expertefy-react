@@ -36,7 +36,11 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`flex navbar-fading sticky top-0 gap-5 ${isMobile ? "justify-between items-center" : "justify-around self-center"} max-md:flex-wrap max-md:max-w-full`}
+        className={`flex navbar-fading sticky top-0 gap-5 ${
+          isMobile
+            ? "justify-between items-center"
+            : "justify-around self-center"
+        } max-md:flex-wrap max-md:max-w-full`}
       >
         <Link to="/">
           <div className="flex gap-2 px-5 text-xl font-semibold text-indigo-500 whitespace-nowrap">

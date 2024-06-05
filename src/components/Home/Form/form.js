@@ -166,7 +166,7 @@ const Form = () => {
                   onChange={(e) => setProjectScope(e.target.value)}
                   required
                 ></textarea>
-                <button className="justify-center dark-button items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg shadow-xl w-[323px] max-md:px-5">
+                <button className="justify-center dark-button items-center self-center px-16 py-5 mt-7 max-w-full text-2xl text-center text-white rounded-lg  drop-shadow-2xl w-[323px] max-md:px-5">
                   Submit Request
                 </button>
               </div>
