@@ -127,7 +127,7 @@ const Offers = () => {
         </div>
 
         <button
-          className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg  drop-shadow-2xl max-md:px-6 max-md:mt-10 dark-button"
+          className="justify-center px-16 py-5 mt-14 text-2xl text-center text-white rounded-lg  shadow-xl max-md:px-6 max-md:mt-10 dark-button"
           onClick={() => navigate("/services")}
         >
           View More

@@ -28,7 +28,7 @@ const App = () => {
   ) : (
     <Router>
       <div className="flex flex-col bg-white shadow-xl px-30">
-        <header className="sticky top-0 bg-white z-50 drop-shadow-2xl">
+        <header className="sticky top-0 bg-white z-50 shadow-xl">
           <Navbar />
         </header>
 
