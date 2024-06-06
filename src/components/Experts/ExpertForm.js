@@ -25,7 +25,7 @@ function ExpertForm() {
   };
   return (
     <section
-      className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full"
+      className="flex justify-center items-center py-8 mt-8 w-full max-md:px-5 max-md:mt-5 max-md:max-w-full lg:mb-32 max-md:mb-16"
       id="become-expert-form"
     >
       <form

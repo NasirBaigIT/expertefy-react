@@ -3,7 +3,11 @@ import SuccessStoriesSvg from "../assets/svg/SuccessStories.svg"; // Assuming yo
 import Banner from "./Home/Banner/banner";
 
 const SuccessStoriesImage = () => {
-  return <Banner />;
+  return (
+    <div className="lg:mb-32 max-md:mb-16">
+      <Banner />;
+    </div>
+  );
 };
 
 export default SuccessStoriesImage;

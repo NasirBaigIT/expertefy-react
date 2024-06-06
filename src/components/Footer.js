@@ -4,7 +4,7 @@ import ticket from "../assets/footer/Ticket.png";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center self-stretch mt-28 w-full text-white bg-dark-indigo max-md:mt-10 max-md:max-w-full">
+    <footer className="flex flex-col items-center self-stretch pt-4 w-full text-white bg-dark-indigo max-md:mt-10 max-md:max-w-full">
       <img
         alt="Expertefy Logo"
         src={ticket}

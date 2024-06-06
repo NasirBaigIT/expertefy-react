@@ -28,7 +28,7 @@ const Clients = () => {
       <Reveal>
         <ClientsTestimonials />
       </Reveal>
-      <div className="flex flex-col items-center px-5 mb-12">
+      <div className="flex flex-col items-center px-5 lg:mb-32 max-md:mb-16">
         <button className="justify-center items-center px-16 py-3 mt-12 dark-button max-w-full text-3xl text-center text-white rounded-lg  shadow-xl w-[398px] max-md:px-5 max-md:mt-10 max-md:text-4xl">
           <HashLink smooth to="/#need-an-expert-form">
             Get Started!

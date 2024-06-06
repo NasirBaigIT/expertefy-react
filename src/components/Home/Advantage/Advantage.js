@@ -11,7 +11,7 @@ const Advantage = () => {
           what sets us apart:
         </p>
       </section>
-      <section className="flex justify-center items-center w-full max-md:px-5 max-md:mt-2 max-md:max-w-full mb-20">
+      <section className="flex justify-center items-center w-full max-md:px-5 max-md:mt-2 max-md:max-w-full lg:mb-32 max-md:mb-16">
         <div className="flex flex-col w-full max-w-[1120px] max-md:max-w-full">
           <div>
             <section className="mt-6 w-full max-w-[1120px] max-md:max-w-full">
