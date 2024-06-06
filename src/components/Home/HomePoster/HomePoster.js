@@ -57,51 +57,51 @@ const HomePoster = () => {
             />
           </div>
         </div>
-        <div className="text-section">
-          <div className="mx-auto font-medium text-indigo-500 capitalize leading-[64px] max-w-[300px]">
+        <div className="text-section flex flex-col">
+          <div className="mx-auto font-medium text-indigo-500 capitalize max-w-[400px]">
             <span
-              className="text-5xl font-light fading"
+              className="text-5xl font-light fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[0] = el)}
             >
               Your
             </span>{" "}
             <br />
             <span
-              className="text-7xl text-indigo-900 fading"
+              className="text-7xl text-indigo-900 fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[1] = el)}
             >
               Trusted
             </span>
             <br />
             <span
-              className="text-6xl font-light text-indigo-500 leading-[56px] fading"
+              className="text-6xl font-light text-indigo-500 leading-[56px] fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[2] = el)}
             >
               Partner{" "}
             </span>
             <span
-              className="text-4xl font-light lowercase leading-[56px] fading"
+              className="text-4xl font-light lowercase leading-[56px] fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[3] = el)}
             >
               for
             </span>
             <br />
             <span
-              className="text-7xl text-indigo-900 uppercase fading"
+              className="text-7xl text-indigo-900 uppercase fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[4] = el)}
             >
               Expert
             </span>
             <br />
             <span
-              className="text-6xl font-light leading-[54px] fading"
+              className="text-6xl font-light leading-[54px] fading mx-auto max-sm:w-[300px]"
               ref={(el) => (textRef.current[5] = el)}
             >
               Insights
             </span>
             <br />
             <span
-              className="mx-auto text-sm font-light fading below-text w-[400px] max-sm:w-[300px]"
+              className="mx-auto text-sm font-light fading below-text w-[400px] max-sm:w-[300px] hero-long-text-color mt-4"
               ref={(el) => (textRef.current[6] = el)}
             >
               Connecting consultants and businesses with industry leaders for
@@ -109,7 +109,7 @@ const HomePoster = () => {
             </span>
           </div>
           <div
-            className="buttons mx-auto fading"
+            className="buttons ml-auto fading max-w-[400px] flex pr-lg-15 mt-lg-12 mt-auto"
             ref={(el) => (textRef.current[7] = el)}
           >
             <button

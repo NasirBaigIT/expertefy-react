@@ -50,6 +50,10 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 270px;
+  @media (max-width: 600px) {
+    width: 200px;
+  }
 }
 
 .become-expert {
@@ -144,17 +148,44 @@
   }
 }
 
+@keyframes fadeinText {
+  0% {
+    opacity: 0;
+    top: -20px;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
 .fading {
   opacity: 0;
+  position: relative;
 }
 
 .fading.active {
   opacity: 100;
-  -webkit-animation: fadein 1s;
+  animation: fadeinText 1s forwards; /* Added 'forwards' to retain end state */
+  -webkit-animation: fadeinText 1s forwards; /* WebKit prefix for compatibility */
 }
 
 .below-text {
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.pr-lg-15 {
+  @media (min-width: 768px) {
+    padding-right: 15px;
+  }
+}
+
+.mt-lg-12 {
+  margin-top: 3rem !important;
+}
+
+.hero-long-text-color {
+  color: #363882;
 }

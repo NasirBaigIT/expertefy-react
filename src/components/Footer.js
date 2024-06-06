@@ -32,7 +32,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <h2 className="mt-10 text-xl font-medium text-center uppercase max-md:max-w-full">
+      <h2 className="mt-10 text-xl font-medium text-center uppercase max-md:max-w-full w-[755px]">
         <span className="uppercase">Expertefy</span> - Your Trusted Partner for
         Expert Insights
         <span>
