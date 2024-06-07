@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 import "../scss/Navbar.scss";
 import "../scss/BurgerMenu.scss"; // Import the styles for BurgerMenu
@@ -9,7 +9,7 @@ import LinkdinLogo from "../assets/svg/linkdin.svg";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = React.useState(6);
-
+  const navigate = useNavigate();
   React.useEffect(() => {
     const updateMobile = () => {
       const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -42,7 +42,15 @@ const Navbar = () => {
             : "justify-around self-center"
         } max-md:flex-wrap max-md:max-w-full`}
       >
-        <Link to="/">
+        <Link
+          to="/"
+          onClick={() => {
+            const element = document.getElementById("page-top");
+            element?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
           <div className="flex gap-2 px-5 text-xl font-semibold text-indigo-500 whitespace-nowrap">
             <img
               alt="Expertefy Logo"
@@ -62,36 +70,72 @@ const Navbar = () => {
         >
           <Link
             to="/services"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             Services
           </Link>
           <Link
             to="/clients"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             Clients
           </Link>
           <Link
             to="/experts"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             Experts
           </Link>
           <Link
             to="/success-stories"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             Success Stories
           </Link>
           <Link
             to="/about-us"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             About Us
           </Link>
           <Link
             to="/contact-us"
+            onClick={() => {
+              const element = document.getElementById("page-top");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
             className={`self-stretch my-auto ${isMobile ? "mx-auto" : ""}`}
           >
             Contact Us

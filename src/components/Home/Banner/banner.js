@@ -26,7 +26,13 @@ const Banner = () => {
                   </p>
                   <button
                     className="justify-center self-center px-16 py-5 mt-20 text-2xl text-center rounded-lg  shadow-xl max-md:px-6 max-md:mt-10 dark-button"
-                    onClick={() => navigate("/success-stories")}
+                    onClick={() => {
+                      const element = document.getElementById("page-top");
+                      element?.scrollIntoView({
+                        behavior: "smooth",
+                      });
+                      navigate("/success-stories");
+                    }}
                   >
                     Read More
                   </button>

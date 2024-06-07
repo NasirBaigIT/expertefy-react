@@ -27,7 +27,7 @@ const App = () => {
     <SplashScreen />
   ) : (
     <Router>
-      <div className="flex flex-col bg-white shadow-xl px-30">
+      <div className="flex flex-col bg-white shadow-xl px-30" id="page-top">
         <header className="sticky top-0 bg-white z-50 shadow-xl">
           <Navbar />
         </header>
