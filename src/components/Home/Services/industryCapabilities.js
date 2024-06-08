@@ -79,10 +79,14 @@ const serviceCards = [
     title: "Advertising & Market Research",
   },
 ];
-function ServiceCard({ imgSrc, title }) {
+function ServiceCard({ imgSrc, title, index }) {
   return (
     <article className="flex flex-col font-medium text-center text-indigo-900">
-      <div className="lg:ml-14 max-md:ml-10 flex-none justify-center align-items-center">
+      <div
+        className={`${
+          index !== 0 ? "lg:ml-14" : ""
+        } max-md:ml-10 flex-none justify-center align-items-center`}
+      >
         <img
           alt="{title}"
           src={imgSrc}
@@ -139,7 +143,7 @@ const IndustryCapabilities = () => {
           {chunkArray(serviceCards, chunkSize).map((chunk, rowIndex) => (
             <div key={rowIndex} className="flex md:justify-center mt-5">
               {chunk.map((card, index) => (
-                <ServiceCard key={index} {...card} />
+                <ServiceCard key={index} {...card} index={index} />
               ))}
             </div>
           ))}
