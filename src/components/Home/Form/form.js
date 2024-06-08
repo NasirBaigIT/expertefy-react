@@ -43,7 +43,7 @@ const Form = () => {
                         suffix="+"
                       ></CountUp>
                     </h2>
-                    <p className="mt-7 text-lg text-indigo-900 leading-[48.06px]">
+                    <p className="mt-4 text-lg text-indigo-900 leading-[48.06px]">
                       Engagements Completed
                     </p>
                   </section>
@@ -56,7 +56,7 @@ const Form = () => {
                         suffix="K+"
                       ></CountUp>
                     </h2>
-                    <p className="self-center mt-3.5 text-lg text-indigo-900 leading-[48.06px]">
+                    <p className="self-center mt-4 text-lg text-indigo-900 leading-[48.06px]">
                       Expert Panel
                     </p>
                   </section>
@@ -72,7 +72,7 @@ const Form = () => {
                         suffix="%"
                       ></CountUp>
                     </h2>
-                    <p className="mt-3 text-lg text-indigo-900 leading-[48.06px]">
+                    <p className="mt-4 text-lg text-indigo-900 leading-[48.06px]">
                       Returning clients
                     </p>
                   </section>
@@ -85,7 +85,7 @@ const Form = () => {
                         suffix="+"
                       ></CountUp>
                     </h2>
-                    <p className="mt-7 text-lg text-indigo-900 leading-[48.06px]">
+                    <p className="mt-4 text-lg text-indigo-900 leading-[48.06px]">
                       Industry Niches
                     </p>
                   </section>
