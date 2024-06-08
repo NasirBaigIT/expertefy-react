@@ -29,6 +29,7 @@
 .banner-stacked-image:nth-child(3) {
   position: absolute;
   transition: right 3s ease-in-out;
+  opacity: 0;
   /* Transition effect */
 }
 
@@ -72,6 +73,7 @@
 
 .banner-stacked-image.active:nth-child(3) {
   right: 0px;
+  opacity: 1;
 
   /* Final position */
   @media (max-width: 720px) {
