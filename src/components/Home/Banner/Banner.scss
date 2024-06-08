@@ -28,7 +28,7 @@
 
 .banner-stacked-image:nth-child(3) {
   position: absolute;
-  transition: right 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
   opacity: 0;
   /* Transition effect */
 }
