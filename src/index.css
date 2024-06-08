@@ -26,10 +26,7 @@ code {
 
 
 .form-left-section {
-  @media (min-width: 768px) {
-    width: 90%;
-    margin-left: auto;
-  }
+  padding: 0 10px;
 }
 .dark-button:hover {
   background-image: none;

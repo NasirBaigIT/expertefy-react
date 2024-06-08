@@ -132,9 +132,12 @@
 
 .stacked-image.active:nth-child(3) {
   right: 0; /* Final position */
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     width: 60px;
     right: 50px;
+  }
+  @media (min-width: 720px) {
+    margin-right: 150px;
   }
 }
 

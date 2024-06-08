@@ -55,7 +55,7 @@ const Offers = () => {
         </div>
         <div className="self-stretch mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
                   <div className="z-10 justify-center items-start px-5 py-3.5 -mt-5 text-xl font-medium text-white whitespace-nowrap bg-light-indigo rounded-t-xl shadow-sm">
@@ -72,12 +72,12 @@ const Offers = () => {
                   <img
                     alt=""
                     src={banner1}
-                    className="mt-16 w-full aspect-[2.04]"
+                    className="mt-16 w-full aspect-[1.98]"
                   />
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
                   <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-light-indigo rounded-t-xl shadow-sm max-md:pr-5">
@@ -99,7 +99,7 @@ const Offers = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex flex-col grow pt-5 max-md:mt-8">
                 <div className="flex flex-col bg-white rounded-none shadow-xl">
                   <div className="z-10 justify-center items-start px-5 py-3 -mt-5 text-xl font-medium text-white bg-light-indigo rounded-t-xl shadow-sm max-md:pr-5">

@@ -34,7 +34,7 @@ const Form = () => {
 
               <div className="form-left-section">
                 <div className="flex justify-around mt-24 max-md:flex-col max-md:mt-10">
-                  <section className="flex flex-col font-medium text-center max-md:ml-2.5 max-md:my-5">
+                  <section className="flex flex-col font-medium text-center max-md:my-5">
                     <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
                       <CountUp
                         start={0}
@@ -47,7 +47,7 @@ const Form = () => {
                       Engagements Completed
                     </p>
                   </section>
-                  <section className="flex flex-col font-medium text-center max-md:mr-2.5 max-md:my-5">
+                  <section className="flex flex-col font-medium text-center max-md:my-5">
                     <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
                       <CountUp
                         start={0}
@@ -63,7 +63,7 @@ const Form = () => {
                 </div>
 
                 <div className="flex justify-around mt-28 max-md:flex-col max-md:mt-2">
-                  <section className="flex flex-col font-medium text-center max-md:mr-2.5 max-md:my-5">
+                  <section className="flex flex-col font-medium text-center max-md:my-5">
                     <h2 className="self-center text-6xl leading-10 text-indigo-500 max-md:text-4xl">
                       <CountUp
                         start={0}
@@ -76,7 +76,7 @@ const Form = () => {
                       Returning clients
                     </p>
                   </section>
-                  <section className="flex flex-col font-medium text-center max-md:ml-2.5 max-md:my-5 lg:ml-24">
+                  <section className="flex flex-col font-medium text-center max-md:my-5">
                     <h2 className="text-6xl leading-10 text-indigo-500 max-md:text-4xl">
                       <CountUp
                         start={0}

@@ -9,7 +9,7 @@ function HowDoesItWork() {
         </div>
         <div className="mt-9 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8 max-md:max-w-full">
                 <div className="justify-center items-start px-4 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:pr-5 max-md:text-4xl">
                   1
@@ -27,7 +27,7 @@ function HowDoesItWork() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8">
                 <div className="justify-center px-3.5 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:text-4xl">
                   2
@@ -50,7 +50,7 @@ function HowDoesItWork() {
         </div>
         <div className="mt-6 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8">
                 <div className="justify-center px-3.5 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:text-4xl">
                   3
@@ -67,7 +67,7 @@ function HowDoesItWork() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8">
                 <div className="justify-center px-3 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:text-4xl">
                   4
@@ -87,7 +87,7 @@ function HowDoesItWork() {
         </div>
         <div className="mt-6 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8">
                 <div className="justify-center px-3.5 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:text-4xl">
                   5
@@ -102,7 +102,7 @@ function HowDoesItWork() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full shadow-xl">
               <div className="flex max-md:mt-8">
                 <div className="justify-center px-3.5 py-11 text-6xl font-light text-center text-white whitespace-nowrap bg-light-indigo rounded-l-lg leading-[60px] max-md:text-4xl">
                   6

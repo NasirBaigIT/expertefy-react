@@ -26,7 +26,7 @@ const Services = () => {
                 <img
                   loading="lazy"
                   src={image1}
-                  className="self-center aspect-square w-[84px]"
+                  className="self-center aspect-square w-[84px] shadow-xl"
                 />
                 <div className="mt-4">Access to top-tier expertise</div>
               </div>
@@ -36,7 +36,7 @@ const Services = () => {
                 <img
                   loading="lazy"
                   src={image2}
-                  className="self-center aspect-square w-[84px]"
+                  className="self-center aspect-square w-[84px] shadow-xl"
                 />
                 <div className="mt-4">Customized & targeted research</div>
               </div>
@@ -46,7 +46,7 @@ const Services = () => {
                 <img
                   loading="lazy"
                   src={image3}
-                  className="self-center aspect-square w-[84px]"
+                  className="self-center aspect-square w-[84px] shadow-xl"
                 />
                 <div className="mt-4">
                   list of available experts for review in 24h
@@ -58,7 +58,7 @@ const Services = () => {
                 <img
                   loading="lazy"
                   src={image4}
-                  className="self-center aspect-square w-[84px]"
+                  className="self-center aspect-square w-[84px] shadow-xl"
                 />
                 <div className="mt-4">Confidentiality & anonymity</div>
               </div>

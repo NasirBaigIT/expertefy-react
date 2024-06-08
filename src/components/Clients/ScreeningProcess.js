@@ -36,7 +36,7 @@ function ScreeningProcess() {
                       ]
                 }
               >
-                <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-11 mx-auto w-full bg-dark-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-500 border-solid overflow-hidden">
                       <div className="justify-center px-3 py-3 text-5xl text-center text-white whitespace-nowrap bg-light-indigo max-md:text-4xl">
@@ -68,7 +68,7 @@ function ScreeningProcess() {
                       ]
                 }
               >
-                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-20 mx-auto w-full bg-light-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-900 border-solid overflow-hidden">
                       <div className="justify-center px-3.5 py-3 text-5xl text-center text-white whitespace-nowrap bg-dark-indigo max-md:text-4xl">
@@ -99,7 +99,7 @@ function ScreeningProcess() {
                       ]
                 }
               >
-                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-11 mx-auto w-full bg-dark-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-500 border-solid overflow-hidden">
                       <div className="justify-center px-3 py-3 text-5xl text-center text-white whitespace-nowrap bg-light-indigo max-md:text-4xl">
@@ -136,7 +136,7 @@ function ScreeningProcess() {
                       ]
                 }
               >
-                <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-12 mx-auto w-full bg-light-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-900 border-solid overflow-hidden">
                       <div className="justify-center px-3 py-3 text-5xl text-center text-white whitespace-nowrap bg-dark-indigo max-md:text-4xl">
@@ -168,7 +168,7 @@ function ScreeningProcess() {
                       ]
                 }
               >
-                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-6 mx-auto w-full bg-dark-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-500 border-solid overflow-hidden">
                       <div className="justify-center px-3 py-3 text-5xl text-center text-white whitespace-nowrap bg-light-indigo max-md:text-4xl">
@@ -188,7 +188,7 @@ function ScreeningProcess() {
                 </div>
               </ArcherElement>
               <ArcherElement id="element6">
-                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full shadow-xl">
                   <div className="flex flex-col grow pb-6 mx-auto w-full bg-light-indigo rounded-xl shadow-md max-md:mt-8">
                     <div className="flex gap-3.5 font-medium capitalize bg-white rounded-t-xl border-2 border-indigo-900 border-solid overflow-hidden">
                       <div className="justify-center px-3 py-3 text-5xl text-center text-white whitespace-nowrap bg-dark-indigo max-md:text-4xl">
