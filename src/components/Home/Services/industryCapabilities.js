@@ -35,6 +35,14 @@ const serviceCards = [
     title: "Technology & Digital Transformation",
   },
   {
+    imgSrc: icon9,
+    title: "Industrial & Environmental Technology",
+  },
+  {
+    imgSrc: icon11,
+    title: "Automotive",
+  },
+  {
     imgSrc: icon5,
     title: "Construction & Interior Design",
   },
@@ -51,16 +59,8 @@ const serviceCards = [
     title: "Mining & Metals",
   },
   {
-    imgSrc: icon9,
-    title: "Industrial & Environmental Technology",
-  },
-  {
     imgSrc: icon10,
     title: "Manufacturing",
-  },
-  {
-    imgSrc: icon11,
-    title: "Automotive",
   },
   {
     imgSrc: icon12,
@@ -82,7 +82,7 @@ const serviceCards = [
 function ServiceCard({ imgSrc, title }) {
   return (
     <article className="flex flex-col font-medium text-center text-indigo-900">
-      <div className="lg:ml-14 max-md:ml-10 flex-none">
+      <div className="lg:ml-14 max-md:ml-10 flex-none justify-center align-items-center">
         <img
           alt="{title}"
           src={imgSrc}
